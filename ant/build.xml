@@ -1,5 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!--
+CoGrOO - An OpenOffice.org Grammar Checker
+
+The Contents of this file are made available subject to
+the terms of GNU Lesser General Public License Version 2.1.
+
+GNU Lesser General Public License Version 2.1
+=============================================
+Copyright 2007 by
+CoGrOO Team (cogrooteam AT gmail DOT com)
+LTA, PCS (Computer and Digital Systems Engineering Department),
+Escola Politécnica da Universidade de São Paulo
+Av. Prof. Luciano Gualberto, trav. 3, n. 380
+CEP 05508-900 - São Paulo - SP - BRAZIL
+
+http://cogroo.incubadora.fapesp.br
+
+This software is free software; you can redistribute it and/or
+modify it under the terms of the GNU Lesser General Public
+License version 2.1, as published by the Free Software Foundation.
+
+This software is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public
+License along with this software; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place, Suite 330, Boston,
+MA 02111-1307 USA
+-->
+
 <project name="cogroo-site" default="all" basedir="..">
 
 	<!-- Parameters -->
