@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<!DOCTYPE document PUBLIC "-//APACHE//DTD Documentation V2.0//EN" "http://forrest.apache.org/dtd/document-v20.dtd">
+<document>
+	<header>
+		<title>Créditos</title>
+		<abstract>
+			Pessoas e organizações que de alguma forma contribuíram para que o projeto chegasse até aqui.
+		</abstract>
+	</header>
+	<body>
+		<section id="boss">
+			<title>Organizadores</title>
+			<ul>
+				<li>Prof. Dr. Jorge Kinoshita (Universidade de São Paulo - Escola Politécnica)</li>
+				<li>Prof. M.Sc. Carlos Eduardo Dantas de Menezes (Centro Universitário Senac)</li>
+				<li>Prof. Dr. Lais Nascimento Salvador (Unifacs - Universidade de Salvador)</li>
+			</ul>
+		</section>
+		<section id="v2.0">
+			<title>v2.0 - Codinome 2.0</title>
+			<p><strong>Servidor</strong></p>
+			<ul>
+				<li>Diogo Abreu Meyer Pires</li>
+				<li>Fábio Wang Gusukuma</li>
+				<li>Marcelo Suzumura</li>
+				<li>William Daniel Colen de Moura Silva</li>
+			</ul>
+			<p><strong>Interface gráfica OOo</strong></p>
+			<ul>
+				<li>Bruno Cesar Brito Sant'Anna</li>
+			</ul>
+		</section>
+		<section id="v1.0">
+			<title>v1.0 - Codinome CoGrUM</title>
+			<p><strong>Servidor</strong></p>
+			<ul>
+				<li>Fábio Wang Gusukuma</li>
+				<li>Marcelo Suzumura</li>
+				<li>Marcos Yoshio Okamura Oku</li>
+				<li>William Daniel Colen de Moura Silva</li>
+			</ul>
+			<p><strong>Interface gráfica OOo e instaladores</strong></p>
+			<ul>
+				<li>Gabriel Bakiewicz</li>
+				<li>Fábio Moreira Blanco</li>
+				<li>Edgard Lemos</li>
+				<li>José Fontebasso Neto</li>
+				<li>André Felipe Santos</li>
+			</ul>
+			<p><strong>Participação especial</strong></p>
+			<ul>
+				<li>Marcelo Bonilha (<em>in memoriam</em>)</li>
+			</ul>
+		</section>
+		<section id="linguistic">
+			<title>Consultoria lingüística</title>
+			<ul>
+				<li>Língua portuguesa: Profª Sueli Caramello Uliano</li>
+			</ul>
+		</section>
+		<section id="sponsors">
+			<title>Patrocínio e colaboração</title>
+			<table>
+				<tr>
+					<td><figure src="/images/sponsors/usp.jpg" height="70" alt="Universidade de São Paulo"/></td>
+<!--					<td><figure src="/images/sponsors/poli.gif" height="70" alt="Escola Politécnica"/></td>-->
+					<td><figure src="/images/sponsors/senac.jpg" height="70" alt="Senac"/></td>
+				</tr>
+				<tr>
+					<td><figure src="/images/sponsors/finep.gif" height="70" alt="Finep"/></td>
+					<td><figure src="/images/sponsors/fapesp.jpg" height="70" alt="Incubadora Fapesp"/></td>
+				</tr>
+				<tr>
+					<td><figure src="/images/sourceforge_blue.png" height="70" alt="SouceForge.net"/></td>
+					<td><figure src="/images/sponsors/google.gif" height="70" alt="Google"/></td>
+				</tr>
+			</table>
+		</section>
+	</body>
+</document>

@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!DOCTYPE document PUBLIC "-//APACHE//DTD Documentation V2.0//EN" "http://forrest.apache.org/dtd/document-v20.dtd">
+<document>
+	<header>
+		<title>Versão 1.2 (antiga) - Perl</title>
+		<abstract>
+			Aqui se pode obter a versão antiga do CoGrOO, feita em linguagem Perl.<br/>
+			As versões do corretor em nada diferem, mas os instaladores para Windows e Linux são diferentes.<br/>
+			Disponibilizamos também o código-fonte do projeto.
+		</abstract>
+	</header>
+	<body>
+		<section id="requirements">
+			<title>Requisitos mínimos</title>
+			<ul>
+				<li>Perl 5.8.x (para Windows já vem incluso no instalador - para Linux, a maioria das distribuições já vem com Perl instalado)</li>
+				<li>OpenOffice.org 1.1.x ou 2.x</li>
+				<li>XXX MB de memória RAM</li>
+				<li>XXX MB de disco rígido</li>
+			</ul>
+		</section>
+		<section id="windows">
+			<title>Windows</title>
+			<p>
+				Basta copiar o instalador para sua máquina, executar o instalador e seguir as instruções.
+			</p>
+			<p>
+				XXX link aqui
+			</p>
+		</section>
+		<section id="linux">
+			<title>Linux</title>
+			<p>
+				Basta copiar o instalador para sua máquina, executar o instalador e seguir as instruções.
+			</p>
+			<p>
+				XXX link aqui
+			</p>
+		</section>
+		<section id="source">
+			<title>Código-fonte</title>
+			<p>
+				Disponível para as pessoas que desejam se aventurar no mundo do CoGrOO.
+			</p>
+			<p>
+				XXX link aqui
+			</p>
+		</section>
+	</body>
+</document>

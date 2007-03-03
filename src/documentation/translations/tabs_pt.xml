@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<catalogue xml:lang="pt">
+	<message key="Project">Projeto</message>
+	<message key="Test Site">Área de Testes</message>
+	<message key="Download">Download</message>
+	<message key="Community">Comunidade</message>
+	<message key="Samples">Exemplos</message>
+</catalogue>

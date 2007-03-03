@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE document PUBLIC "-//APACHE//DTD Documentation V2.0//EN" "http://forrest.apache.org/dtd/document-v20.dtd">
+<document>
+	<header>
+		<title>Comunidade CoGrOO</title>
+		<abstract>
+			Aqui você encontrará informações de tarefas em aberto e ficará sabendo como contribuir
+			com o progresso do projeto.
+		</abstract>
+	</header>
+	<body>
+		<section id="opentasks">
+			<title>Tarefas em aberto</title>
+			<p>
+				Nosso projeto permanentemente necessita de ajuda. Dado que o número de pessoas participando
+				do projeto é limitado, existem tarefas que não estão e nem têm previsão de serem realizadas.
+				Caso se interessem por alguma dessas tarefas e tenham afinidade com os assuntos relacionados,
+				veja na próxima seção como contribuir com o projeto. Contamos com sua ajuda!
+			</p>
+			<table>
+				<tr>
+					<th>Tarefa</th>
+					<th>Descrição sucinta</th>
+				</tr>
+				<tr>
+					<td>Tarefa 1</td>
+					<td>Algo a ser feito...</td>
+				</tr>
+			</table>
+		</section>
+		<section id="how">
+			<title>Como contribuir</title>
+			<p>
+				Ainda não formalizamos o processo de contribuição com o projeto...
+				Talvez fosse essa uma tarefa que devesse ser colocada na seção anterior...
+			</p>
+			<p>
+				Por ora, pode-se entrar em contato conosco pelo email <strong>cogroo at gmail.com</strong>.
+			</p>
+		</section>
+	</body>
+</document>

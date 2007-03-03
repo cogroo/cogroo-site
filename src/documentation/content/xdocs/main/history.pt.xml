@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE document PUBLIC "-//APACHE//DTD Documentation V2.0//EN" "http://forrest.apache.org/dtd/document-v20.dtd">
+
+<document>
+	<header>
+		<title>Histórico</title>
+		<notice>BBBBBBBBBBBBBBBBBBBBBBBBBBBB.</notice>
+		<abstract>
+			Histórico This is a demonstration document using all
+			possible elements in the current Apache Forrest xdocs
+			<code>document-v20.dtd</code>
+		</abstract>
+	</header>
+	<body>
+		<note>
+			This is a demonstration document using all possible elements
+			in the current Apache Forrest xdocs
+			<code>document-v20.dtd</code>
+			(See the
+			<a href="#changes">DTD changes</a>
+			section at the bottom.)
+		</note>
+	</body>
+</document>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document PUBLIC "-//APACHE//DTD Documentation V2.0//EN" "http://forrest.apache.org/dtd/document-v20.dtd">
+
+<document>
+	<header>
+		<title>
+			CoGrOO - Corretor Gramatical acoplável ao OpenOffice.org
+		</title>
+	</header>
+	<body>
+		<section id="overview">
+			<title>O que faz o CoGrOO?</title>
+			<p>
+				O <strong>CoGrOO</strong> é um <strong>corretor gramatical</strong> acoplável ao OpenOffice.org.
+			</p>
+			<p>
+				Cabe aqui uma breve distinção entre corretores gramaticais e ortográficos:
+			</p>
+			<ul>
+				<li>
+					<strong>corretor ortográfico</strong>: detecta <strong>erros de grafia</strong> nas palavras, por exemplo,
+					a palavra "sugeito" com a letra "g", em vez de "sujeito" com a letra "j". Além disso, sugere
+					uma medida corretiva para a solução do erro, que é a substituição da palavra grafada incorretamente
+					pela palavra grafada corretamente.
+				</li>
+				<li>
+					<strong>corretor gramatical</strong>: detecta <strong>erros nas relações</strong> entre as palavras, por exemplo,
+					na sentença "Os menino estudam demais.", o corretor gramatical detecta
+					o erro na concordância entre o artigo "os" e o substantivo "menino".
+					E também sugere uma medida corretiva, como a substituição da palavra "menino" pela mesma palavra flexionada no
+					plural, que é "meninos".
+				</li>
+			</ul>
+			<p>
+				Assim, o CoGrOO é capaz de detectar diversos tipos de erros gramaticais, sendo
+				os mais importantes os listados a seguir:
+			</p>
+			<ul>
+				<li>
+					colocação pronominal
+				</li>
+				<li>
+					concordância nominal
+				</li>
+				<li>
+					concordância entre sujeito e verbo
+				</li>
+				<li>
+					concordância verbal
+				</li>
+				<li>
+					uso de crase
+				</li>
+				<li>
+					regência nominal
+				</li>
+				<li>
+					regência verbal
+				</li>
+				<li>
+					erros comuns da língua portuguesa falada
+				</li>
+			</ul>
+			<note label="Site em construção">
+				Este site está em construção e ainda não contém muitas informações que existiam no site antigo.<br/>
+				Para maiores informações, consulte o site antigo na
+				<a href="http://cogroo.incubadora.fapesp.br">Incubadora Fapesp</a>.
+			</note>
+		</section>
+		<section id="whatshere">
+			<!-- XXX escrever o que as tabs contém -->
+			<title>O que há neste site?</title>
+			<ul>
+				<li>Projeto
+					<ul>
+						<li>Introdução: descrição do projeto</li>
+					</ul>
+<!--					<ul>-->
+<!--						<li>Histórico: a história e a motivação do nosso projeto</li>-->
+<!--					</ul>-->
+					<ul>
+						<li>Screenshots: fotos do projeto em funcionamento</li>
+					</ul>
+					<ul>
+						<li>Licença: termos e condições de uso</li>
+					</ul>
+				</li>
+<!--				<li>-->
+<!--					Área de Testes: possibilita o uso do corretor gramatical pela <em>web</em>. É uma área de "<em>test drive</em>".-->
+<!--				</li>-->
+				<li>
+					Download: aqui se pode obter o programa para instalação.
+				</li>
+				<li>
+					Comunidade
+					<ul>
+						<li>Contribuindo: como ajudar no projeto</li>
+					</ul>
+					<ul>
+						<li>Créditos: quem participou do projeto</li>
+					</ul>
+					<ul>
+						<li>Fóruns: dúvidas, sugestões e reclamações (SourceForge.net)</li>
+					</ul>
+					<ul>
+						<li>Tracker: bugs, novas <em>features</em> e patches (SourceForge.net)</li>
+					</ul>
+				</li>
+			</ul>
+<!--			<p>-->
+<!--				<code>-->
+<!--colocar:-->
+<!--- área de publicações;-->
+<!--- área de mídia;-->
+<!--- área de "onde está sendo usado";-->
+<!--				</code>-->
+<!--			</p>-->
+		</section>
+	</body>
+</document>

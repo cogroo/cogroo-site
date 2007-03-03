@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+<catalogue xml:lang="pt">
+
+	<!-- Menu principal -->
+	<message key="About">Sobre</message>
+	<message key="Introduction">Introdução</message>
+	<message key="History">Histórico</message>
+	<message key="Screenshots">Screenshots</message>
+	<message key="License">Licença</message>
+	
+	<!-- Menu da área de testes -->
+	<message key="Test Site">Área de Testes</message>
+	<message key="Grammar Checker">Corretor Gramatical</message>
+	<message key="Shallow Parser">Analisador Sintático Simples</message>
+	<message key="Chunker">Agrupador</message>
+	<message key="Tagger">Etiquetador Morfológico</message>
+	<message key="Tokenizer">Separador de Tokens</message>
+	
+	<!-- Menu comunidade -->
+	<message key="Community">Comunidade</message>
+	<message key="Contributing">Contribuindo</message>
+	<message key="Credits">Créditos</message>
+	<message key="Forums">Fóruns</message>
+	<message key="Tracker">Tracker</message>
+	<message key="Statistics">Estatísticas</message>
+
+</catalogue>
