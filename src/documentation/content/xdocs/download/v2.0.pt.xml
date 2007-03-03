@@ -10,6 +10,13 @@
 		</abstract>
 	</header>
 	<body>
+		<section id="whatsnew">
+			<title>Mudanças nesta versão, em relação à família de versões 1.x</title>
+			<ul>
+				<li>Totalmente reformulado e reescrito em Java 5.0</li>
+				<li>Interface gráfica com opções de conexão a um servidor CoGrOO remoto</li>
+			</ul>
+		</section>
 		<section id="requirements">
 			<title>Requisitos mínimos</title>
 			<ul>
