@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="cogroo-site" default="all" basedir="..">
+
+	<!-- Parameters -->
+	<property file="ant/build.properties"/>
+	
+	<!-- Prepares the build directory -->
+	<target name="prepare">
+		<mkdir dir="${dist.dir}"/>
+	</target>
+	
+	<!-- ****************************** SITE ******************************* -->
+	
+	<target name="1.generate.site" description="Generates site using Forrest">
+		<exec executable="${forrest}"></exec>
+	</target>
+	
+	<target name="2.package.site" description="Zips the generated site">
+		<zip destfile="${dist.dir}/site.zip">
+			<fileset dir="${local.path}"></fileset>
+		</zip>
+	</target>
+	
+	<target name="3.delete.site" description="Deletes the site on the remote host">
+		<sshexec
+			host="${host}"
+			username="${username}"
+			password="${password}"
+			command="rm -rf ${remote.path}/*"
+			trust="yes"
+			failonerror="false"
+		/>
+	</target>
+	
+	<target name="4.upload.site" description="Uploads the zipped site">
+		<scp
+			file="${dist.dir}/site.zip"
+			todir="${username}:${password}@${host}:${remote.path}"
+			trust="yes"
+		/>
+	</target>
+	
+	<target name="5.unzip.site" description="Unzips the site at the remote host">
+		<sshexec
+			host="${host}"
+			username="${username}"
+			password="${password}"
+			command="unzip ${remote.path}/site.zip -d ${remote.path}"
+			trust="yes"
+			failonerror="false"
+		/>
+	</target>
+	
+	<target name="6.change.permissions" description="Gives write permission to cogroo group users">
+		<sshexec
+			host="${host}"
+			username="${username}"
+			password="${password}"
+			command="chmod -R g+w ${remote.path}/*"
+			trust="yes"
+			failonerror="false"
+		/>
+	</target>
+	
+	<target name="7.delete.site.package" description="Deletes the zipped site from the remote host">
+		<sshexec
+			host="${host}"
+			username="${username}"
+			password="${password}"
+			command="rm -f ${remote.path}/site.zip"
+			trust="yes"
+			failonerror="false"
+		/>
+	</target>
+	
+	<target name="all" depends="clean, 1.generate.site, 2.package.site, 3.delete.site, 4.upload.site, 5.unzip.site, 6.change.permissions, 7.delete.site.package"/>
+	
+	<!-- ************************* CLEAN UP TASKS ************************** -->
+	
+	<target name="clean" depends="clean.dist" description="Removes all generated directories"/>
+	
+	<target name="clean.dist" description="Removes the generated build directory">
+		<echo message="Removing ${dist.dir} directory"/>
+		<delete dir="${dist.dir}"/>
+	</target>
+
+</project>
