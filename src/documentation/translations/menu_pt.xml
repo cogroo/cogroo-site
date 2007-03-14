@@ -9,6 +9,9 @@
 	<message key="Screenshots">Screenshots</message>
 	<message key="License">Licença</message>
 	
+	<!-- Menu da área de download -->
+	<message key="Installation">Instalação</message>
+	
 	<!-- Menu da área de testes -->
 	<message key="Test Site">Área de Testes</message>
 	<message key="Grammar Checker">Corretor Gramatical</message>

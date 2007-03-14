@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<!DOCTYPE document PUBLIC "-//APACHE//DTD Documentation V2.0//EN" "http://forrest.apache.org/dtd/document-v20.dtd">
+<document>
+	<header>
+		<title>Instruções para Instalação e Desinstalação</title>
+		<abstract>
+			Nesta página se encontram informações para a instalação e desinstalação do CoGrOO.
+		</abstract>
+	</header>
+	<body>
+		<section id="v2.0">
+			<title>2.0</title>
+			<section>
+				<title>Windows</title>
+				<section>
+					<title>Instalação</title>
+					<ol>
+						<li>Baixar a versão desejada na área de downloads</li>
+						<li>Duplo clique no instalador para iniciar o processo de instalação</li>
+						<li>Escolher a língua em que as instruções de instalação serão mostradas (não afeta o corretor gramatical)</li>
+						<li>Surgirá a tela de informações do projeto</li>
+						<li>Ler e concordar com a licença</li>
+						<li>Escolher o diretório de instalação do CoGrOO</li>
+						<li>Ver o que será instalado em seu computador</li>
+						<li>Aguardar a finalização da instalação</li>
+					</ol>
+				</section>
+				<section>
+					<title>Desinstalação</title>
+					<ol>
+						<li>Vá para a pasta em que o CoGrOO foi instalado</li>
+						<li>Entrar na pasta Uninstaller</li>
+						<li>Duplo clique em uninstaller.jar</li>
+						<li>Escolher a opção "Forçar remoção"</li>
+						<li>Apertar o botão "Desinstalar"</li>
+						<li>Aguardar o fim da desinstalação</li>
+					</ol>
+				</section>
+			</section>
+			<section>
+				<title>Linux</title>
+				<section>
+					<title>Instalação</title>
+					<ol>
+						<li>Baixar a versão desejada na área de downloads</li>
+						<li>Abrir uma linha de comando e ir para o diretório onde o .bin foi baixado</li>
+						<li>Dar permissão de execução ao arquivo .bin (exemplo: chmod +x instalador.bin)</li>
+						<li>Virar usuário root</li>
+						<li>Executar o arquivo instalador (exemplo: ./instalador.bin)</li>
+						<li>Escolher a língua em que as instruções de instalação serão mostradas (não afeta o corretor gramatical)</li>
+						<li>Surgirá a tela de informações do projeto</li>
+						<li>Ler e concordar com a licença</li>
+						<li>Escolher o diretório de instalação do CoGrOO</li>
+						<li>Ver o que será instalado em seu computador</li>
+						<li>Aguardar a finalização da instalação</li>
+					</ol>
+				</section>
+				<section>
+					<title>Desinstalação</title>
+					<ol>
+						<li>Vá para a pasta em que o CoGrOO foi instalado</li>
+						<li>Entrar na pasta bin</li>
+						<li>Virar usuário root</li>
+						<li>Executar o desinstalador (exemplo: ./uninstaller.bin)</li>
+						<li>Apertar o botão "Desinstalar"</li>
+						<li>Aguardar o fim da desinstalação</li>
+					</ol>
+				</section>
+			</section>
+		</section>
+	</body>
+</document>
