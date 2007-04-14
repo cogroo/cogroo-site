@@ -18,11 +18,19 @@
 <!--				<li>XXX MB de memória RAM</li>-->
 <!--				<li>XXX MB de disco rígido</li>-->
 			</ul>
+			<warning label="IMPORTANTE: fechar Iniciador Rápido do OpenOffice.org">
+				É importante que o <strong>Iniciador Rápido</strong> do OpenOffice.org,
+				que fica junto aos ícones perto do relógio
+				seja <strong>fechado</strong> antes da instalação, ou a instalação falhará.<br/>
+				Para isso, clique com o botão direito do mouse no ícone do Iniciador e selecione
+				a opção "Sair do Iniciador Rápido".
+			</warning>
 		</section>
 		<section id="windows">
 			<title>Windows</title>
 			<p>
-				Basta copiar o instalador para sua máquina, executar o instalador e seguir as instruções.
+				Basta copiar o instalador para sua máquina, executar o instalador e seguir as instruções do próprio instalador.
+				Em caso de dúvidas, o processo é explicado <a href="installation.html#v1.x.windows">aqui</a>.
 			</p>
 			<p>
 				<a href="http://www.pcs.usp.br/~cogroo/installer/cogroo_installer_windows_v1_1.exe">cogroo_installer_windows_v1_1.exe</a>
@@ -34,18 +42,12 @@
 				uma outra implementação de Perl a sua escolha. No entanto, é possível optar pela
 				não instalação do Perl durante a instalação.
 			</note>
-			<warning label="IMPORTANTE: fechar Iniciador Rápido do OpenOffice.org">
-				É importante que o <strong>Iniciador Rápido</strong> do OpenOffice.org,
-				que fica junto aos ícones perto do relógio
-				seja <strong>fechado</strong> antes da instalação, ou a instalação falhará.<br/>
-				Para isso, clique com o botão direito do mouse no ícone do Iniciador e selecione
-				a opção "Sair do Iniciador Rápido".
-			</warning>
 		</section>
 		<section id="linux">
 			<title>Linux</title>
 			<p>
-				Basta copiar o instalador para sua máquina, executar o instalador e seguir as instruções.
+				Basta copiar o instalador para sua máquina, executar o instalador e seguir as instruções do próprio instalador.
+				Em caso de dúvidas, o processo é explicado <a href="installation.html#v1.x.linux">aqui</a>.
 			</p>
 			<p>
 				<a href="http://www.pcs.usp.br/~cogroo/installer/cogroo_installer_linux_v1_1.bin">cogroo_installer_linux_v1_1.bin</a>

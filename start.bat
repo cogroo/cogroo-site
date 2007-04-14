@@ -1,1 +1,1 @@
-forrest run
+%FORREST_HOME%\bin\forrest run

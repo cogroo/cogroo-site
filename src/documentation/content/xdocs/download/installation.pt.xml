@@ -8,9 +8,111 @@
 		</abstract>
 	</header>
 	<body>
-		<section id="v2.0">
-			<title>2.0</title>
+		<section id="v2.x">
+			<title>2.x</title>
+			<section id="v2.x.windows">
+				<title>Windows</title>
+				<section>
+					<title>Instalação</title>
+					<ol>
+						<li>Baixar a versão desejada na área de downloads</li>
+						<li>Duplo clique no instalador para iniciar o processo de instalação</li>
+						<li>Escolher a língua em que as instruções de instalação serão mostradas (não afeta o corretor gramatical)</li>
+						<li>Ler e concordar com a licença</li>
+						<li>Escolher o diretório de instalação do CoGrOO</li>
+						<li>Aguardar a finalização da instalação</li>
+					</ol>
+				</section>
+				<section>
+					<title>Desinstalação</title>
+					<ol>
+						<li>Vá para a pasta em que o CoGrOO foi instalado</li>
+						<li>Duplo clique em uninstaller</li>
+						<li>Confirme a desinstalação</li>
+						<li>Aguardar o fim da desinstalação</li>
+					</ol>
+				</section>
+			</section>
 			<section>
+				<title>Linux</title>
+				<section id="v2.x.rpm">
+					<title>rpm</title>
+					<section>
+						<title>Instalação</title>
+						<ol>
+							<li>Baixar a versão desejada na área de downloads</li>
+							<li>Abrir uma linha de comando e ir para o diretório onde o arquivo foi baixado</li>
+							<li>Virar usuário root</li>
+							<li>Executar o comando <code>rpm -ivh &lt;nomedopacote.rpm&gt;</code></li>
+							<li>Aguardar a finalização da instalação</li>
+						</ol>
+					</section>
+					<section>
+						<title>Desinstalação</title>
+						<ol>
+							<li>Virar usuário root</li>
+							<li>Executar o comando <code>rpm -e &lt;nomedopacote.rpm&gt;</code></li>
+							<li>Aguardar o fim da desinstalação</li>
+						</ol>
+					</section>
+				</section>
+				<section id="v2.x.deb">
+					<title>deb</title>
+					<section>
+						<title>Instalação</title>
+						<ol>
+							<li>Baixar a versão desejada na área de downloads</li>
+							<li>Abrir uma linha de comando e ir para o diretório onde o arquivo foi baixado</li>
+							<li>Virar usuário root</li>
+							<li>Executar o comando <code>dpkg -i &lt;nomedopacote.deb&gt;</code></li>
+							<li>Aguardar a finalização da instalação</li>
+						</ol>
+					</section>
+					<section>
+						<title>Desinstalação</title>
+						<ol>
+							<li>Virar usuário root</li>
+							<li>Executar o comando <code>dpkg -r &lt;nomedopacote.deb&gt;</code></li>
+							<li>Aguardar o fim da desinstalação</li>
+						</ol>
+					</section>
+				</section>
+				<section id="v2.x.otherlinux">
+					<title>Outras distribuições</title>
+					<section>
+						<title>Instalação</title>
+						<ol>
+							<li>Baixar a versão desejada na área de downloads</li>
+							<li>Abrir uma linha de comando e ir para o diretório onde o .bin foi baixado</li>
+							<li>Dar permissão de execução ao arquivo .bin (exemplo: chmod +x instalador.bin)</li>
+							<li>Virar usuário root</li>
+							<li>Executar o arquivo instalador (exemplo: ./instalador.bin)</li>
+							<li>Escolher a língua em que as instruções de instalação serão mostradas (não afeta o corretor gramatical)</li>
+							<li>Surgirá a tela de informações do projeto</li>
+							<li>Ler e concordar com a licença</li>
+							<li>Escolher o diretório de instalação do CoGrOO</li>
+							<li>Ver o que será instalado em seu computador</li>
+							<li>Aguardar a finalização da instalação</li>
+						</ol>
+					</section>
+					<section>
+						<title>Desinstalação</title>
+						<ol>
+							<li>Vá para a pasta em que o CoGrOO foi instalado</li>
+							<li>Entrar na pasta bin</li>
+							<li>Virar usuário root</li>
+							<li>Executar o desinstalador (exemplo: ./uninstaller.bin)</li>
+							<li>Apertar o botão "Desinstalar"</li>
+							<li>Aguardar o fim da desinstalação</li>
+						</ol>
+					</section>
+				</section>
+			</section>
+		</section>
+		
+		<section id="v2.0.beta1">
+			<title>2.0.beta1</title>
+			<section id="v2.0.beta1.windows">
 				<title>Windows</title>
 				<section>
 					<title>Instalação</title>
@@ -39,7 +141,68 @@
 			</section>
 			<section>
 				<title>Linux</title>
+				<section id="v2.0.beta1.linux">
+					<title>Instalação</title>
+					<ol>
+						<li>Baixar a versão desejada na área de downloads</li>
+						<li>Abrir uma linha de comando e ir para o diretório onde o .bin foi baixado</li>
+						<li>Dar permissão de execução ao arquivo .bin (exemplo: chmod +x instalador.bin)</li>
+						<li>Virar usuário root</li>
+						<li>Executar o arquivo instalador (exemplo: ./instalador.bin)</li>
+						<li>Escolher a língua em que as instruções de instalação serão mostradas (não afeta o corretor gramatical)</li>
+						<li>Surgirá a tela de informações do projeto</li>
+						<li>Ler e concordar com a licença</li>
+						<li>Escolher o diretório de instalação do CoGrOO</li>
+						<li>Ver o que será instalado em seu computador</li>
+						<li>Aguardar a finalização da instalação</li>
+					</ol>
+				</section>
 				<section>
+					<title>Desinstalação</title>
+					<ol>
+						<li>Vá para a pasta em que o CoGrOO foi instalado</li>
+						<li>Entrar na pasta bin</li>
+						<li>Virar usuário root</li>
+						<li>Executar o desinstalador (exemplo: ./uninstaller.bin)</li>
+						<li>Apertar o botão "Desinstalar"</li>
+						<li>Aguardar o fim da desinstalação</li>
+					</ol>
+				</section>
+			</section>
+		</section>
+		
+		<section id="v1.x">
+			<title>1.x</title>
+			<section id="v1.x.windows">
+				<title>Windows</title>
+				<section>
+					<title>Instalação</title>
+					<ol>
+						<li>Baixar a versão desejada na área de downloads</li>
+						<li>Duplo clique no instalador para iniciar o processo de instalação</li>
+						<li>Escolher a língua em que as instruções de instalação serão mostradas (não afeta o corretor gramatical)</li>
+						<li>Surgirá a tela de informações do projeto</li>
+						<li>Ler e concordar com a licença</li>
+						<li>Escolher o diretório de instalação do CoGrOO</li>
+						<li>Ver o que será instalado em seu computador</li>
+						<li>Aguardar a finalização da instalação</li>
+					</ol>
+				</section>
+				<section>
+					<title>Desinstalação</title>
+					<ol>
+						<li>Vá para a pasta em que o CoGrOO foi instalado</li>
+						<li>Entrar na pasta Uninstaller</li>
+						<li>Duplo clique em uninstaller.jar</li>
+						<li>Escolher a opção "Forçar remoção"</li>
+						<li>Apertar o botão "Desinstalar"</li>
+						<li>Aguardar o fim da desinstalação</li>
+					</ol>
+				</section>
+			</section>
+			<section>
+				<title>Linux</title>
+				<section id="v1.x.linux">
 					<title>Instalação</title>
 					<ol>
 						<li>Baixar a versão desejada na área de downloads</li>

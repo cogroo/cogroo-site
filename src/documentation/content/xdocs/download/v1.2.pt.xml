@@ -10,6 +10,10 @@
 		</abstract>
 	</header>
 	<body>
+			<warning label="Última versão da família 1">
+				A versão 1.2 será a última versão da família 1, que é feita em linguagem Perl e Java.
+				A próxima família de versões será a 2 e utilizará somente Java 1.5 ou maior.
+			</warning>
 		<section id="whatsnew">
 			<title>Mudanças nesta versão</title>
 			<ul>
@@ -25,23 +29,32 @@
 <!--				<li>XXX MB de memória RAM</li>-->
 <!--				<li>XXX MB de disco rígido</li>-->
 			</ul>
+			<warning label="IMPORTANTE: fechar Iniciador Rápido do OpenOffice.org">
+				É importante que o <strong>Iniciador Rápido</strong> do OpenOffice.org,
+				que fica junto aos ícones perto do relógio
+				seja <strong>fechado</strong> antes da instalação, ou a instalação falhará.<br/>
+				Para isso, clique com o botão direito do mouse no ícone do Iniciador e selecione
+				a opção "Sair do Iniciador Rápido".
+			</warning>
 		</section>
 		<section id="windows">
-			<title>Windows</title>
+			<title>Windows 98, ME, NT, 2000, XP</title>
 			<p>
-				Basta copiar o instalador para sua máquina, executar o instalador e seguir as instruções.
+				Basta copiar o instalador para sua máquina, executar o instalador e seguir as instruções do próprio instalador.
+				Em caso de dúvidas, o processo é explicado <a href="installation.html#v1.x.windows">aqui</a>.
 			</p>
 			<p>
-				XXX link aqui
+				<a href="http://downloads.sourceforge.net/cogroo/cogroo-1.2.0-windows.exe">cogroo-1.2.0-windows.exe</a>
 			</p>
 		</section>
 		<section id="linux">
 			<title>Linux</title>
 			<p>
-				Basta copiar o instalador para sua máquina, executar o instalador e seguir as instruções.
+				Basta copiar o instalador para sua máquina, executar o instalador e seguir as instruções do próprio instalador.
+				Em caso de dúvidas, o processo é explicado <a href="installation.html#v1.x.linux">aqui</a>.
 			</p>
 			<p>
-				XXX link aqui
+				Será disponibilizado em breve.
 			</p>
 		</section>
 		<section id="source">
@@ -50,7 +63,7 @@
 				Disponível para as pessoas que desejam se aventurar no mundo do CoGrOO.
 			</p>
 			<p>
-				XXX link aqui
+				Será disponibilizado aqui em breve. Por ora, é possível obter pelo SVN do SourceForge.
 			</p>
 		</section>
 	</body>
