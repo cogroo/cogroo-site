@@ -5,8 +5,9 @@
 
 	<tab id="" label="Project" dir="" indexfile="index.html"/>
 <!--	<tab id="testsite" label="Test Site" dir="testsite" indexfile="grammarchecker.html"/>-->
-<!--	<tab id="download" label="Download" dir="download" indexfile="current.html"/>-->
+<!--	<tab id="download" label="Download" dir="download" indexfile="index.html"/>-->
 	<tab id="download" label="Download" dir="download" indexfile="current.html"/>
 	<tab id="community" label="Community" dir="community" indexfile="contributing.html"/>
+	<tab id="forums" label="Forums" href="http://sourceforge.net/forum/?group_id=182075"/>
 
 </tabs>
