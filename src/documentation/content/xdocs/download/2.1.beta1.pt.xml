@@ -2,26 +2,16 @@
 <!DOCTYPE document PUBLIC "-//APACHE//DTD Documentation V2.0//EN" "http://forrest.apache.org/dtd/document-v20.dtd">
 <document>
 	<header>
-		<title>Versão 2.0.1</title>
+		<title>Versão 2.1.beta1</title>
 		<abstract>
-			Aqui se pode obter uma versão do CoGrOO 2.0.<br/>
-			As versões do corretor em nada diferem, mas os instaladores para Windows e Linux são diferentes.<br/>
-			Disponibilizamos também o código-fonte do projeto.
+			Aqui se pode obter uma versão beta do CoGrOO 2.1.<br/>
 		</abstract>
 	</header>
 	<body>
 		<section id="whatsnew">
 			<title>Mudanças nesta versão, em relação à versão anterior</title>
 			<ul>
-				<li>Funciona no Windows Vista</li>
-				<li>Funciona com Java 6</li>
-				<li>Correções de alguns bugs:
-					<ul>
-						<li>algumas sugestões incorretas</li>
-						<li>modificações no instalador Windows (verificação de Java 6 instalado)</li>
-						<li>modificações no instalador Linux (dependência entre gui e server no deb)</li>
-					</ul>
-				</li>
+				<li>Mudança nos dicionários de palavras com redução drástica no espaço ocupado em disco, mas sem alteração no conteúdo e na performance do programa.</li>
 			</ul>
 		</section>
 		<section id="requirements">
@@ -40,7 +30,7 @@
 				Em caso de dúvidas, o processo é explicado <a href="installation.html#v2.x.windows">aqui</a>.
 			</p>
 			<p>
-				<a href="http://downloads.sourceforge.net/cogroo/cogroo-2.0.1-windows-nt-2000-xp-vista.exe">cogroo-2.0.1-windows-nt-2000-xp-vista.exe</a>
+				<a href="http://downloads.sourceforge.net/cogroo/cogroo-2.1.beta1-windows-nt-2000-xp-vista.exe">cogroo-2.1.beta1-windows-nt-2000-xp-vista.exe</a>
 			</p>
 		</section>
 		<section id="linux">
@@ -57,10 +47,7 @@
 					Copiar os pacotes server e gui e seguir os passos indicados <a href="installation.html#v2.x.rpm">aqui</a>.
 				</p>
 				<p>
-					<a href="http://downloads.sourceforge.net/cogroo/cogroo-server-2.0.1-1.i386.rpm">cogroo-server-2.0.1-1.i386.rpm</a>
-				</p>
-				<p>
-					<a href="http://downloads.sourceforge.net/cogroo/cogroo-gui-2.0.1-1.i386.rpm">cogroo-gui-2.0.1-1.i386.rpm</a>
+					Será disponibilizado aqui em breve.
 				</p>
 			</section>
 			<section id="linux_deb">
@@ -69,10 +56,10 @@
 					Copiar os pacotes server e gui e seguir os passos indicados <a href="installation.html#v2.x.deb">aqui</a>.
 				</p>
 				<p>
-					<a href="http://downloads.sourceforge.net/cogroo/cogroo-server-2.0.1-linux.deb">cogroo-server-2.0.1-linux.deb</a>
+					<a href="http://downloads.sourceforge.net/cogroo/cogroo-server-2.1.beta1-linux.deb">cogroo-server-2.1.beta1-linux.deb</a>
 				</p>
 				<p>
-					<a href="http://downloads.sourceforge.net/cogroo/cogroo-gui-2.0.1-linux.deb">cogroo-gui-2.0.1-linux.deb</a>
+					<a href="http://downloads.sourceforge.net/cogroo/cogroo-gui-2.1.beta1-linux.deb">cogroo-gui-2.1.beta1-linux.deb</a>
 				</p>
 			</section>
 			<section id="linux_other">
@@ -82,7 +69,7 @@
 					Em caso de dúvidas, o processo é explicado <a href="installation.html#v2.x.otherlinux">aqui</a>.
 				</p>
 				<p>
-					<a href="http://downloads.sourceforge.net/cogroo/cogroo-2.0.1-linux.bin">cogroo-2.0.1-linux.bin</a>
+					Será disponibilizado aqui em breve.
 				</p>
 			</section>
 		</section>

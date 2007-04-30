@@ -18,6 +18,7 @@
 <!--	</testsite>-->
 	
 	<download label="Download" href="download/" tab="download">
+		<v2.1.beta1 label="2.1.beta1 (Java 5)" href="2.1.beta1.html"/>
 		<current label="2.0.1 (Java 5)" href="current.html"/>
 		<v2.0.0 label="2.0.0 (Java 5)" href="v2.0.0.html"/>
 		<v2.0.beta1 label="2.0.beta1 (Java 5)" href="v2.0.beta1.html"/>
