@@ -1,11 +1,25 @@
 <?xml version="1.0"?>
-
+<!--
+	Licensed to the Apache Software Foundation (ASF) under one or more
+	contributor license agreements.  See the NOTICE file distributed with
+	this work for additional information regarding copyright ownership.
+	The ASF licenses this file to You under the Apache License, Version 2.0
+	(the "License"); you may not use this file except in compliance with
+	the License.  You may obtain a copy of the License at
+	
+	http://www.apache.org/licenses/LICENSE-2.0
+	
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+-->
 <!--
 	Skin configuration file. This file contains details of your project,
 	which will be used to configure the chosen Forrest skin.
 -->
-
-<!DOCTYPE skinconfig PUBLIC "-//APACHE//DTD Skin Configuration V0.7-1//EN" "http://forrest.apache.org/dtd/skinconfig-v07-1.dtd">
+<!DOCTYPE skinconfig PUBLIC "-//APACHE//DTD Skin Configuration V0.8-1//EN" "http://forrest.apache.org/dtd/skinconfig-v08-1.dtd">
 <skinconfig>
 	<!-- To enable lucene search add provider="lucene" (default is google).
 		Add box-location="alt" to move the search box to an alternate location
@@ -14,9 +28,7 @@
 		no search box. @domain will enable sitesearch for the specific domain with google.
 		In other words google will search the @domain for the query string.
 	-->
-<!--	<search name="CoGrOO" domain="cogroo.sourceforge.net"-->
-<!--		provider="google" />-->
-
+	<!--	<search name="CoGrOO" domain="cogroo.sourceforge.net" provider="google" />-->
 	<!-- Disable the print link? If enabled, invalid HTML 4.0.1 -->
 	<disable-print-link>true</disable-print-link>
 	<!-- Disable the PDF link? -->
@@ -32,57 +44,48 @@
 		xml format for their uses. Keep this disabled if you don't want other
 		sites to easily reuse your pages.-->
 	<disable-xml-link>true</disable-xml-link>
-
 	<!-- Disable navigation icons on all external links? -->
 	<disable-external-link-image>true</disable-external-link-image>
-
 	<!-- Disable w3c compliance links? 
 		Use e.g. align="center" to move the compliance links logos to 
 		an alternate location default is left.
 		(if the skin supports it) -->
 	<disable-compliance-links>false</disable-compliance-links>
-
 	<!-- Render mailto: links unrecognisable by spam harvesters? -->
 	<obfuscate-mail-links>true</obfuscate-mail-links>
 	<obfuscate-mail-value>.at.</obfuscate-mail-value>
-
 	<!-- Disable the javascript facility to change the font size -->
 	<disable-font-script>true</disable-font-script>
-
 	<!-- mandatory project logo
 		default skin: renders it at the top -->
 	<project-name>CoGrOO</project-name>
-	<project-description>
-		Corretor Gramatical acoplável ao OpenOffice.org
-	</project-description>
+	<project-description>Corretor Gramatical acoplável ao OpenOffice.org</project-description>
 	<project-url>http://cogroo.sourceforge.net/</project-url>
 	<project-logo>images/transparent_200x20.gif</project-logo>
-
+	<!-- Alternative static image:
+		<project-logo>images/project-logo.gif</project-logo> -->
 	<!-- optional group logo
 		default skin: renders it at the top-left corner -->
 	<group-name>CoGrOO</group-name>
-	<group-description>
-		Corretor Gramatical acoplável ao OpenOffice.org
-	</group-description>
+	<group-description>Corretor Gramatical acoplável ao OpenOffice.org</group-description>
 	<group-url>http://cogroo.sourceforge.net/</group-url>
 	<group-logo>images/logo_gr.gif</group-logo>
-
+	<!-- Alternative static image:
+		<group-logo>images/group-logo.gif</group-logo> -->
 	<!-- optional host logo (e.g. sourceforge logo)
 		default skin: renders it at the bottom-left corner -->
-	<host-url>http://sourceforge.net</host-url>
-	<host-logo>images/sourceforge_blue.png</host-logo>
-
+	<host-url></host-url>
+	<host-logo></host-logo>
 	<!-- relative url of a favicon file, normally favicon.ico -->
 	<favicon-url></favicon-url>
-
 	<!-- The following are used to construct a copyright statement -->
-	<year>2007</year>
+	<disable-copyright-footer>false</disable-copyright-footer>
+	<!-- @inception enable automatic generation of a date-range to current date -->
+	<year inception="true">2007</year>
 	<vendor>LTA - PCS - USP</vendor>
 	<!-- The optional copyright-link URL will be used as a link in the
-		copyright statement
-		<copyright-link>http://www.apache.org/licenses/</copyright-link>
-	-->
-
+		copyright statement -->
+	<!--	<copyright-link>http://www.example.org/</copyright-link>-->
 	<!-- Some skins use this to form a 'breadcrumb trail' of links.
 		Use location="alt" to move the trail to an alternate location
 		(if the skin supports it).
@@ -99,7 +102,6 @@
 		<link2 name="cogroo" href="http://cogroo.sourceforge.net/" />
 		<link3 name="" href="" />
 	</trail>
-
 	<!-- Configure the TOC, i.e. the Table of Contents.
 		@max-depth
 		how many "section" levels need to be included in the
@@ -110,25 +112,25 @@
 		Where to show the TOC.
 	-->
 	<toc max-depth="2" min-sections="1" location="page" />
-
 	<!-- Heading types can be clean|underlined|boxed  -->
 	<headings type="boxed" />
-
 	<!-- The optional feedback element will be used to construct a
 		feedback link in the footer with the page pathname appended:
 		<a href="@href">{@to}</a>
 	-->
-	<feedback to="cogroo@gmail.com"
-		href="mailto:cogroo@gmail.com?subject=Feedback&#160;">
-		Sugestões:
-	</feedback>
-
+	<feedback to="cogroo@gmail.com" href="mailto:cogroo@gmail.com?subject=Feedback&#160;"></feedback>
 	<!-- Optional message of the day (MOTD).
 		Note: This is only implemented in the pelt skin.
+		Note: Beware issue FOR-677 if you use an absolute path uri.
 		If the optional <motd> element is used, then messages will be appended
 		depending on the URI string pattern.
-		motd-option : Specifies a pattern to match and provides small text content.
-		motd-title : This text will be added in brackets after the <html><title>
+		motd-option : Each option will match a pattern and apply its text.
+		The "pattern" attribute specifies the pattern to be matched.
+		This can be a specific page, or a general pattern to match a set of pages,
+		e.g. everything in the "samples" directory.
+		The @starts-with=true anchors the string to the start, otherwise contains 
+		motd-title : This text will betadded in brackets after the <html><title>
+		and this can be empty.
 		motd-page : This text will be added in a panel on the face of the page,
 		with the "motd-page-url" being the hyperlink "More".
 		Values for the "location" attribute are:
@@ -136,25 +138,17 @@
 		alt : at the bottom of the left-hand navigation panel
 		both : both
 	-->
-	<!--
-		<motd>
-		<motd-option pattern="docs_0_80">
-		<motd-title>v0.8-dev</motd-title>
-		<motd-page location="both">
-		This is documentation for development version v0.8
-		</motd-page>
-		<motd-page-url>/versions/index.html</motd-page-url>
-		</motd-option>
-		<motd-option pattern="docs_0_70">
-		<motd-title>v0.7</motd-title>
-		<motd-page location="both">
-		This is documentation for current version v0.7
-		</motd-page>
-		<motd-page-url>/versions/index.html</motd-page-url>
-		</motd-option>
-		</motd>
-	-->
-
+	<!--	<motd>-->
+	<!--		<motd-option pattern="samples/sample.html">-->
+	<!--			<motd-title>sample</motd-title>-->
+	<!--			<motd-page location="both">This is an example of a Message of the day (MOTD).</motd-page>-->
+	<!--			<motd-page-url>faq.html</motd-page-url>-->
+	<!--		</motd-option>-->
+	<!--		<motd-option pattern="samples/faq.html">-->
+	<!--			<motd-page location="page">How to enable this MOTD is on this page.</motd-page>-->
+	<!--			<motd-page-url>http://forrest.apache.org/docs/faq.html</motd-page-url>-->
+	<!--		</motd-option>-->
+	<!--	</motd>-->
 	<!--
 		extra-css - here you can define custom css-elements that are 
 		A) overriding the fallback elements or 
@@ -167,15 +161,12 @@
 			in the class attribute of a <p> node. 
 			e.g. <p class="quote"/>
 		-->
-		p.quote { margin-left: 2em; padding: .5em; background-color:
-		#f0f0f0; font-family: monospace; }
+		p.quote { margin-left: 2em; padding: .5em; background-color: #f0f0f0; font-family: monospace; }
 		<!--Example:
 			To override the colours of links only in the footer.
 		-->
-		#footer a { color: #0F3660; } #footer a:visited { color:
-		#009999; }
+		#footer a { color: #0F3660; } #footer a:visited { color: #009999; }
 	</extra-css>
-
 	<colors>
 		<!-- These values are used for the generated CSS files.
 			They essentially "override" the default colors defined in the chosen skin.
@@ -187,7 +178,6 @@
 			Note that by default, all color groups are commented-out which means that
 			the default colors provided by the skin are being used.
 		-->
-
 		<!-- Color group: Forrest: example colors similar to forrest.apache.org
 			Some of the element names are obscure, so comments are added to show how
 			the "pelt" skin uses them, other skins might use these elements in a different way.
@@ -207,14 +197,11 @@
 
 		<color name="breadtrail" value="#cedfef" font="#0F3660" link="#0F3660" vlink="#0F3660" hlink="#000066" />
 		<color name="header" value="#294563" />
-<!--		<color name="header" value="#cedfef" />-->
 		<color name="tab-selected" value="#4a6d8c" link="#0F3660" vlink="#0F3660" hlink="#000066" />
 		<color name="tab-unselected" value="#b5c7e7" link="#0F3660" vlink="#0F3660" hlink="#000066" />
 		<color name="subtab-selected" value="#4a6d8c" link="#0F3660" vlink="#0F3660" hlink="#000066" />
 		<color name="subtab-unselected" value="#4a6d8c" link="#0F3660" vlink="#0F3660" hlink="#000066" />
 		<color name="heading" value="#294563" />
-<!--		<color name="heading" value="#cedfef" />-->
-<!--		<color name="subheading" value="#4a6d8c" />-->
 		<color name="subheading" value="#cedfef" />
 		<color name="published" value="#4C6C8F" font="#FFFFFF" />
 		<color name="feedback" value="#4C6C8F" font="#FFFFFF" align="center" />
@@ -265,7 +252,6 @@
 			
 			<color name="footer" value="#a5b6c6"/>
 		-->
-
 		<!-- Color group: Collabnet -->
 		<!--
 			<color name="header"    value="#003366"/>
@@ -329,7 +315,6 @@
 			<color name="footer" value="#E5E4D9"/>
 		-->
 	</colors>
-
 	<!-- Settings specific to PDF output. -->
 	<pdf>
 		<!-- 
@@ -340,7 +325,6 @@
 			Supported text alignments are left, right, justify (default left).
 		-->
 		<page size="a4" orientation="portrait" text-align="left" />
-
 		<!-- 
 			Pattern of the page numbering in the footer - Default is "Page x".
 			first occurrence of '1' digit represents the current page number,
@@ -353,8 +337,7 @@
 			<page-numbering-format>Page 1/1</page-numbering-format> Displays "Page x/y"
 			<page-numbering-format>(1-1)</page-numbering-format> Displays "(x-y)"
 		-->
-		<page-numbering-format>x/y</page-numbering-format>
-
+		<page-numbering-format>Page 1</page-numbering-format>
 		<!--
 			Margins can be specified for top, bottom, inner, and outer
 			edges. If double-sided="false", the inner edge is always left
@@ -369,12 +352,10 @@
 			<inner>1.25in</inner>
 			<outer>1in</outer>
 		</margins>
-
 		<!--
 			Print the URL text next to all links going outside the file
 		-->
 		<show-external-urls>false</show-external-urls>
-
 		<!--
 			Disable the copyright footer on each page of the PDF.
 			A footer is composed for each page. By default, a "credit" with role=pdf
@@ -383,7 +364,6 @@
 		-->
 		<disable-copyright-footer>false</disable-copyright-footer>
 	</pdf>
-
 	<!-- 
 		Credits are typically rendered as a set of small clickable
 		images in the page footer.
@@ -420,5 +400,4 @@
 			</credit>
 		-->
 	</credits>
-
 </skinconfig>
