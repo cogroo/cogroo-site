@@ -18,5 +18,5 @@
 <catalogue xml:lang="en">
   <message key="en">English</message>
   <message key="es">Spanish</message>
-  <message key="nl">Dutch</message>
+  <message key="pt">Portuguese</message>
 </catalogue>
