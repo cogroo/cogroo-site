@@ -8,6 +8,40 @@
 		</abstract>
 	</header>
 	<body>
+	<section id="v3.0">
+			<title>3.x</title>
+			<section id="v3.0oxt">
+				<title>OpenOffice.org EXtension (.oxt)</title>
+				<section>
+					<title>Instalação pelo sistema de arquivos</title>
+					<ol>
+						<li>Baixar a versão desejada na área de downloads</li>
+						<li>Duplo clique no instalador para iniciar o processo de instalação</li>
+						<li>Siga as instruções do Gerenciador de extensão do OpenOffice.org</li>
+						<li>Será necessário reiniciar o OpenOffice.org para que a extensão seja ativada.</li>
+					</ol>
+				</section>
+				<section>
+					<title>Instalação pelo Gerenciador de extensão</title>
+					<ol>
+						<li>Baixar a versão desejada na área de downloads</li>
+						<li>Em uma janela do OpenOffice.org, clique no menu Ferramentas e depois em Gerenciador de extensão</li>
+						<li>Clique em Adicionar e selecione o instalador na área de downloads</li>
+						<li>Siga as instruções do Gerenciador de extensão do OpenOffice.org</li>
+						<li>Será necessário reiniciar o OpenOffice.org para que a extensão seja ativada.</li>
+					</ol>
+				</section>
+				<section>
+					<title>Desinstalação</title>
+					<ol>
+						<li>Em uma janela do OpenOffice.org, clique no menu Ferramentas e depois em Gerenciador de extensão</li>
+						<li>Na lista de extensões, localize e selecione no CoGrOO</li>
+						<li>Clique em Remover</li>
+						<li>Aguardar o fim da desinstalação</li>
+					</ol>
+				</section>
+			</section>
+		</section>
 		<section id="v2.x">
 			<title>2.x</title>
 			<section id="v2.x.windows">

@@ -45,13 +45,17 @@ MA 02111-1307 USA
 	<!-- ****************************** SITE ******************************* -->
 	
 	<target name="1.generate.site" description="Generates site using Forrest">
+		<echo message="start: execute ${forrest}"/>
 		<exec executable="${forrest}"></exec>
+		<echo message="end: execute ${forrest}"/>
 	</target>
 	
 	<target name="2.package.site" description="Zips the generated site">
+		<echo message="start: zip"/>
 		<zip destfile="${dist.dir}/site.zip">
 			<fileset dir="${local.path}"></fileset>
 		</zip>
+		<echo message="end: zip"/>
 	</target>
 	
 	<target name="3.delete.site" description="Deletes the site on the remote host">
