@@ -60,6 +60,8 @@ MA 02111-1307 USA
 	
 	<target name="3.delete.site" description="Deletes the site on the remote host">
 		<sshexec
+			keyfile="${sf.key}"
+			port="22"
 			host="${host}"
 			username="${username}"
 			password="${password}"
@@ -71,6 +73,7 @@ MA 02111-1307 USA
 	
 	<target name="4.upload.site" description="Uploads the zipped site">
 		<scp
+			keyfile="${sf.key}"
 			file="${dist.dir}/site.zip"
 			todir="${username}:${password}@${host}:${remote.path}"
 			trust="yes"
@@ -79,6 +82,7 @@ MA 02111-1307 USA
 	
 	<target name="5.unzip.site" description="Unzips the site at the remote host">
 		<sshexec
+			keyfile="${sf.key}"
 			host="${host}"
 			username="${username}"
 			password="${password}"
@@ -90,6 +94,7 @@ MA 02111-1307 USA
 	
 	<target name="6.change.permissions" description="Gives write permission to cogroo group users">
 		<sshexec
+			keyfile="${sf.key}"
 			host="${host}"
 			username="${username}"
 			password="${password}"
@@ -101,6 +106,7 @@ MA 02111-1307 USA
 	
 	<target name="7.delete.site.package" description="Deletes the zipped site from the remote host">
 		<sshexec
+			keyfile="${sf.key}"
 			host="${host}"
 			username="${username}"
 			password="${password}"
