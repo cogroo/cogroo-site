@@ -4,8 +4,8 @@
 
 	<about label="About">
 		<index label="Introduction" href="index.html"/>
-<!--		<history label="History" href="main/history.html"/>-->
-		<screenshots label="Screenshots" href="main/screenshots.html"/>
+<!-- 		<history label="History" href="main/history.html"/>
+	<screenshots label="Screenshots" href="main/screenshots.html"/>-->
 		<license label="License" href="main/license.html"/>
 	</about>
 

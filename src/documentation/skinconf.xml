@@ -74,8 +74,8 @@
 		<group-logo>images/group-logo.gif</group-logo> -->
 	<!-- optional host logo (e.g. sourceforge logo)
 		default skin: renders it at the bottom-left corner -->
-	<host-url></host-url>
-	<host-logo></host-logo>
+	<host-url>http://sourceforge.net/</host-url>
+	<host-logo>http://sflogo.sourceforge.net/sflogo.php?group_id=221433&amp;type=4</host-logo>
 	<!-- relative url of a favicon file, normally favicon.ico -->
 	<favicon-url></favicon-url>
 	<!-- The following are used to construct a copyright statement -->
