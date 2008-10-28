@@ -8,16 +8,23 @@
 		</abstract>
 	</header>
 	<body>
-		<section id="boss">
-			<title>Managers</title>
+		<section id="v3.0">
+			<title>v3.0 - Codinome 3.0</title>
+			<p>Better grammar checker engine. Integration with OpenOffice.org totally
+			rewritten to be compatible with its 3.0 version.</p>
+			<p><strong>Architect and developer</strong></p>
 			<ul>
-				<li>Prof. Dr. Jorge Kinoshita (Universidade de São Paulo - Escola Politécnica)</li>
-				<li>Prof. M.Sc. Carlos Eduardo Dantas de Menezes (Centro Universitário Senac)</li>
-				<li>Prof. Dr. Lais Nascimento Salvador (Unifacs - Universidade de Salvador)</li>
+				<li>William Daniel Colen de Moura Silva</li>
+			</ul>
+			<p><strong>Coordinator</strong></p>
+			<ul>
+				<li>Prof. M.Sc. Carlos Eduardo Dantas de Menezes</li>
 			</ul>
 		</section>
 		<section id="v2.0">
 			<title>v2.0 - Codename 2.0</title>
+			<p>The grammar checker engine was the graduation project of the Computer Engineer students of 
+			 at Politecnic School, São Paulo University (USP)</p>
 			<p><strong>Server</strong></p>
 			<ul>
 				<li>Diogo Abreu Meyer Pires</li>
@@ -32,6 +39,12 @@
 		</section>
 		<section id="v1.0">
 			<title>v1.0 - Codename CoGrUM</title>
+			<p><strong>Managers</strong></p>
+			<ul>
+				<li>Prof. Dr. Jorge Kinoshita (Universidade de São Paulo - Escola Politécnica)</li>
+				<li>Prof. M.Sc. Carlos Eduardo Dantas de Menezes (Centro Universitário Senac)</li>
+				<li>Prof. Dr. Lais Nascimento Salvador (Unifacs - Universidade de Salvador)</li>
+			</ul>
 			<p><strong>Server</strong></p>
 			<ul>
 				<li>Fábio Wang Gusukuma</li>
@@ -58,12 +71,11 @@
 				<li>Brazilian portuguese: Prof. Sueli Caramello Uliano</li>
 			</ul>
 		</section>
-		<section id="sponsors">
+<!-- 		<section id="sponsors">
 			<title>Sponsors</title>
 			<table>
 				<tr>
 					<td><figure src="/images/sponsors/usp.jpg" height="70" alt="Universidade de São Paulo"/></td>
-<!--					<td><figure src="/images/sponsors/poli.gif" height="70" alt="Escola Politécnica"/></td>-->
 					<td><figure src="/images/sponsors/senac.jpg" height="70" alt="Senac"/></td>
 				</tr>
 				<tr>
@@ -79,6 +91,6 @@
 					<td><figure src="/images/sponsors/google.gif" height="70" alt="Google"/></td>
 				</tr>
 			</table>
-		</section>
+		</section>-->
 	</body>
 </document>

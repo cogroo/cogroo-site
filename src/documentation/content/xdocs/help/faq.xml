@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<!DOCTYPE faqs PUBLIC "-//APACHE//DTD FAQ V1.2//EN" "http://forrest.apache.org/dtd/faq-v12.dtd" >
+<faqs title="Perguntas Freqüentes (FAQs)">
+	<part id="installation">
+		<title>Problemas de instalação</title>
+		<faq id="installrestart">
+			<question> É necessário reiniciar o OpenOffice.org após a instalação?</question>
+			<answer>
+				<p> Sim. Feche todas a janelas do OpenOffice.org. Abra novamente para que instalação do corretor seja concluída.</p>
+			</answer>
+		</faq>
+		<faq id="installsuccess">
+			<question>Como determino se minha instalação foi bem sucedida?</question>
+			<answer>
+				<p> Caso tenha feito a instalação, tenha reiniciado o OpenOffice.org, mas ainda não está certo se a instalação foi bem sucedida, execute o seguinte procedimento:</p>
+				<p>
+					Em uma janela do OpenOffice.org, clique no menu
+					<code>Ajuda</code>
+					e verifique se o submenu
+					<code>Corretor Gramatical CoGrOO</code>
+					está presente.
+				</p>
+				<p>
+					Crie um novo documento no <code>Writer</code>. Tenha certeza de que o idioma esteja configurado para
+					<code>pt-BR</code>. Este dado está disponível na barra de status. Caso necessário, altere o 
+					idioma pelo menu <code>Ferramentas >> Idioma >> Para o texto todo >> Português (Brasil)</code>
+				</p>
+				<p>
+					Digite o texto "Fomos levados à crer." e verifique se o erro no uso da crase foi apontado.
+				</p>
+			</answer>
+		</faq>
+		<faq id="installoxtlogs">
+			<question>O corretor parece não ter sido instalado corretamente. Como obtenho os logs?</question>
+			<answer>
+				<p>
+				A instalação de um .OXT gera logs que podem indicar o motivo da falha. 
+				Caso tenha problemas na instalação veja se existe alguma pista nos arquivos de log. 
+				Caso necessário envie o arquivo ou trechos relevantes para o nosso fórum.
+				</p>
+				<p>
+				O arquivo de log pode estar localizado em diferentes pastas, de acordo com sua instalação. Veja alguns casos.
+				</p>
+				<p>
+				<strong>Windows (XP ou Vista), instalação apenas para o usuário corrente</strong>
+				</p>
+				<p>
+				<strong>OpenOffice.org</strong><br/>
+				<code>%APPDATA%\OpenOffice.org\3\user\uno_packages\cache\log.txt</code><br/>
+				<strong>BrOffice.org</strong><br/>
+				<code>%APPDATA%\BrOffice.org\3\user\uno_packages\cache\log.txt</code><br/>
+				</p>
+				<p>
+				Onde, em geral, no Windows Vista<br/>
+				<code>%APPDATA% = C:\Users\[NomeDoUsuário]\AppData\Roaming</code><br/>
+				E no Windows XP<br/>
+				   	<code>%APPDATA% = C:\Documents and Settings\[NomeDoUsuário]\Application Data</code>
+				</p>
+				<p>
+				<strong>Windows (XP ou Vista), instalação para todos os usuários</strong>
+				</p>
+				<p>
+				<strong>OpenOffice.org</strong><br/>
+				<code>%ProgramFiles%\OpenOffice.org 3\share\uno_packages\cache\log.txt</code><br/>
+				<strong>BrOffice.org</strong><br/>
+				<code>%ProgramFiles%\BrOffice.org 3\share\uno_packages\cache\log.txt</code>
+				</p>
+				<p>
+				Onde, em geral, no Windows Vista<br/>
+				    <code>%ProgramFiles% = C:\Program Files</code><br/>
+				E no Windows XP<br/>
+				     <code>% ProgramFiles% = C:\Arquivos de Programas</code><br/>
+				
+				<strong>Linux, instalação apenas para o usuário corrente</strong>
+				</p>
+				<p>				
+				Em geral, na sua pasta de usuário<br/>
+				<strong>OpenOffice.org</strong><br/>
+				<code>/home/[NomeDoUsuário]/.openoffice.org3/user/uno_packages/cache/log.txt</code><br/>
+				<strong>BrOffice.org</strong><br/>
+				<code>/home/[NomeDoUsuário]/.broffice.org3/user/uno_packages/cache/log.txt</code><br/>
+				</p>
+				<p>	
+				<strong>Linux, instalação para todos os usuários</strong>
+				</p>
+				<p>	
+				Nesse caso, a instalação vai depender da sua distribuição. Por exemplo
+				</p>
+				<p>	
+				<strong>OpenOffice.org</strong><br/>
+				<code>/opt/openoffice.org3/share/uno_packages/cache/log.txt</code><br/>
+				<strong>BrOffice.org</strong><br/>
+				<code>/opt/broffice.org3/share/uno_packages/cache/log.txt </code><br/>
+				</p>
+			</answer>
+		</faq>
+		<faq id="installaddonlogs">
+			<question>O corretor parece ter sido instalado, mas não está funcionando. Existe algum log que eu possa enviar ao fórum?</question>
+			<answer>
+				<p> 
+					Sim. Por padrão nenhum log menor que ERRO é logado nas versões released, para evitar que dados sigilosos sejam gravados em arquivos de log. Caso queira depurar, baixe alguma versão marcada como SNAPSHOT, tente instalar e obtenha os logs gerados.
+					De qualquer forma, em uma versão released pelo menos erros fatais serão logados, e eles são importantes para depuração.
+				</p>
+				<p>	
+					<strong>Logs no Windows (XP ou Vista)</strong><br/>					
+					<code>%TEMP%\br.usp.pcs.lta.cogroo.ooointegration\logs</code>
+				</p>
+				<p>					
+					Onde, em geral, no Windows Vista<br/>
+					    <code>%TEMP% = C:\Users\[NomeDoUsuário]\AppData\Local\Temp</code><br/>
+					E no Windows XP<br/>
+					     <code>%TEMP% = C:\Documents and Settings\[NomeDoUsuário]\Local Settings\Temp</code><br/>
+				</p>
+				<p>
+					<strong>Logs no Linux</strong><br/>
+					Depende da sua distribuição. Por exemplo:<br/>
+					<code>/tmp/br.usp.pcs.lta.cogroo.ooointegration/logs</code><br/>
+
+				</p>
+			</answer>
+		</faq>
+	</part>
+</faqs>

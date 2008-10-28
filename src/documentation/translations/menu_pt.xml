@@ -8,6 +8,7 @@
 	<message key="History">Histórico</message>
 	<message key="Screenshots">Screenshots</message>
 	<message key="License">Licença</message>
+	<message key="Help">Ajuda</message>
 	
 	<!-- Menu da área de download -->
 	<message key="Installation">Instalação</message>
@@ -28,4 +29,6 @@
 	<message key="Tracker">Tracker</message>
 	<message key="Statistics">Estatísticas</message>
 
+	<!-- Menu comunidade -->
+	<message key="Frequently Asked Questions">Perguntas Freqüentes (FAQs)</message>
 </catalogue>

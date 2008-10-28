@@ -17,6 +17,10 @@
 <!--		<tokenizer label="Tokenizer" href="grammarchecker.html"/>-->
 <!--	</testsite>-->
 	
+	<help label="Help" href="help/" tab="help">
+		<faq label="Frequently Asked Questions" href="faq.html"/>
+	</help>
+	
 	<download label="Download" href="download/" tab="download">
 		<current label="3.0.0 (Java 6)" href="current.html"/>
 		<v2.1.0 label="2.1.0 (Java 5)" href="v2.1.0.html"/>

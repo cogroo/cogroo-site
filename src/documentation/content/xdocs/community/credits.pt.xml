@@ -8,16 +8,23 @@
 		</abstract>
 	</header>
 	<body>
-		<section id="boss">
-			<title>Organizadores</title>
+		<section id="v3.0">
+			<title>v3.0 - Codinome 3.0</title>
+			<p>Revisão da engine do corretor gramatical revista e melhorada. Integração
+			com o OpenOffice.org reescrita para compatibilidade com sua versão 3.0.</p>
+			<p><strong>Arquitetura e desenvolvimento</strong></p>
 			<ul>
-				<li>Prof. Dr. Jorge Kinoshita (Universidade de São Paulo - Escola Politécnica)</li>
-				<li>Prof. M.Sc. Carlos Eduardo Dantas de Menezes (Centro Universitário Senac)</li>
-				<li>Prof. Dr. Lais Nascimento Salvador (Unifacs - Universidade de Salvador)</li>
+				<li>William Daniel Colen de Moura Silva</li>
+			</ul>
+			<p><strong>Coordenação</strong></p>
+			<ul>
+				<li>Prof. M.Sc. Carlos Eduardo Dantas de Menezes</li>
 			</ul>
 		</section>
 		<section id="v2.0">
 			<title>v2.0 - Codinome 2.0</title>
+			<p>A engine do corretor gramatical foi projeto de conclusão de curso dos alunos de 
+			Engenharia da Computação da Escola Politécnica da USP em 2006.</p>
 			<p><strong>Servidor</strong></p>
 			<ul>
 				<li>Diogo Abreu Meyer Pires</li>
@@ -29,9 +36,20 @@
 			<ul>
 				<li>Bruno Cesar Brito Sant'Anna (participante do Google Summer of Code 2006)</li>
 			</ul>
+			<p><strong>Orientadores do projeto</strong></p>
+			<ul>
+				<li>Prof. Dr. Jorge Kinoshita (Universidade de São Paulo - Escola Politécnica)</li>
+				<li>Prof. M.Sc. Carlos Eduardo Dantas de Menezes (Centro Universitário Senac)</li>
+			</ul>
 		</section>
 		<section id="v1.0">
 			<title>v1.0 - Codinome CoGrUM</title>
+			<p><strong>Organizadores</strong></p>
+			<ul>
+				<li>Prof. Dr. Jorge Kinoshita (Universidade de São Paulo - Escola Politécnica)</li>
+				<li>Prof. M.Sc. Carlos Eduardo Dantas de Menezes (Centro Universitário Senac)</li>
+				<li>Prof. Dr. Lais Nascimento Salvador (Unifacs - Universidade de Salvador)</li>
+			</ul>			
 			<p><strong>Servidor</strong></p>
 			<ul>
 				<li>Fábio Wang Gusukuma</li>
@@ -57,13 +75,12 @@
 			<ul>
 				<li>Língua portuguesa: Profª Sueli Caramello Uliano</li>
 			</ul>
-		</section>
+		</section><!--
 		<section id="sponsors">
 			<title>Patrocínio e colaboração</title>
 			<table>
 				<tr>
 					<td><figure src="/images/sponsors/usp.jpg" height="70" alt="Universidade de São Paulo"/></td>
-<!--					<td><figure src="/images/sponsors/poli.gif" height="70" alt="Escola Politécnica"/></td>-->
 					<td><figure src="/images/sponsors/senac.jpg" height="70" alt="Senac"/></td>
 				</tr>
 				<tr>
@@ -80,5 +97,5 @@
 				</tr>
 			</table>
 		</section>
-	</body>
+	--></body>
 </document>
