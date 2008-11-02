@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!DOCTYPE document PUBLIC "-//APACHE//DTD Documentation V2.0//EN" "http://forrest.apache.org/dtd/document-v20.dtd">
+
+<document>
+	<header>
+		<title>Doações</title>
+		<abstract>
+			Se você gosta do projeto CoGrOO e deseja que ele continue sendo aprimorado, 
+			faça uma doação. As doações feitas ao projeto serão utilizadas para promover 
+			participações em conferências e eventos, manutenção de hardware e para ajudar 
+			nos gastos com o desenvolvimento do projeto. 
+		</abstract>
+	</header>
+	<body>
+		<section id="comofazer">
+			<title>Doe pelo PagSeguro</title>
+			<p>
+				Clique no botão <strong>Faça uma doação PagSeguro</strong>. Este botão se
+				encontra em qualquer página deste sítio, do lado esquedo.				
+			</p>
+		</section>
+		<section id="comofazerpaypal">
+			<title>Doe pelo PayPal</title>
+			<p>
+				Clique no botão <strong>Support this project</strong>. Este botão se
+				encontra em qualquer página deste sítio, do lado esquedo.				
+			</p>
+			<note>Preferencialmente faça doações pelo PagSeguro.</note>
+		</section>	
+		<section id="comofazeroutros">
+			<title>Doe por outros meios</title>
+			<p>
+				Envie um e-mail para <strong>cogroo AT gmail.com</strong> para combinar como proceder.
+			</p>
+		</section>	
+		<section id="agradecimentos">
+			<title>Agradecimentos</title>
+			<p>
+				Os doadores terão seus nomes mencionados na página do projeto em 
+				Comunidade >> Agradecimentos.
+			</p>
+		</section>
+	</body>
+</document>

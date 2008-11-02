@@ -4,6 +4,7 @@
 
 	<!-- Menu principal -->
 	<message key="About">Sobre</message>
+	<message key="Donate">Doações</message>
 	<message key="Introduction">Introdução</message>
 	<message key="History">Histórico</message>
 	<message key="Screenshots">Screenshots</message>

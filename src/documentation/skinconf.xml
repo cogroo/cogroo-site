@@ -390,12 +390,40 @@
 			<width>88</width>
 			<height>31</height>
 		</credit>
+		<credit box-location="alt2">
+		      <name>donationpagseguro</name>
+		      <url>http://forrest.apache.org/</url>
+			<image>images/built-with-forrest-button.png</image>
+			<width>88</width>
+			<height>31</height>
+   		</credit>
+   		<credit box-location="alt2">
+		    <name>Donate money to CoGrOO</name>
+		    <url>https://sourceforge.net/donate/index.php?group_id=182075</url>
+		 	<image>images/project-support.jpg</image>
+			<width>88</width>
+			<height>32</height>
+   		</credit>
+   		<credit box-location="alt2">
+		    <name>addlinks</name>
+		    <url>http://www.google.com/</url>
+			<image>images/built-with-forrest-button.png</image>
+			<width>88</width>
+			<height>31</height>
+   		</credit>
+   		<credit box-location="alt2">
+		    <name>addlinks</name>
+		    <url>http://www.uol.com.br/</url>
+			<image>images/built-with-forrest-button.png</image>
+			<width>88</width>
+			<height>31</height>
+   		</credit>
 		<!-- A credit with @role="pdf" will be used to compose a footer
 			for each page in the PDF, using either "name" or "url" or both.
 		-->
 		<!--
 			<credit role="pdf">
-			<name>Built with Apache Forrest</name>
+			<name>Built with Apache Forest</name>
 			<url>http://forrest.apache.org/</url>
 			</credit>
 		-->

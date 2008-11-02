@@ -4,9 +4,8 @@
 
 	<about label="About">
 		<index label="Introduction" href="index.html"/>
-<!-- 		<history label="History" href="main/history.html"/>
-	<screenshots label="Screenshots" href="main/screenshots.html"/>-->
 		<license label="License" href="main/license.html"/>
+		<donate label="Donate" href="main/donate.html"/>
 	</about>
 
 <!--	<testsite label="Test Site" href="testsite/" tab="testsite">-->
