@@ -4,6 +4,7 @@
 
 	<about label="About">
 		<index label="Introduction" href="index.html"/>
+		<reportingProblems label="Reporting problems" href="help/reportingProblems.html"/>
 		<license label="License" href="main/license.html"/>
 		<donate label="Donate" href="main/donate.html"/>
 	</about>
@@ -18,6 +19,7 @@
 	
 	<help label="Help" href="help/" tab="help">
 		<faq label="Frequently Asked Questions" href="faq.html"/>
+		<reportingProblems label="Reporting problems" href="reportingProblems.html"/>
 	</help>
 	
 	<download label="Download" href="download/" tab="download">
@@ -34,12 +36,17 @@
 		<installation label="Installation" href="installation.html"/>
 	</download>
 	
-	<community label="Community" href="community/" tab="community">
-		<contributing label="Contributing" href="contributing.html"/>
-		<credits label="Credits" href="credits.html"/>
+	<wiki label="Wiki page" href="wiki/" tab="wiki">
+		<main label="Main" href="wiki.html"/>
+	</wiki>
+	
+	<community label="Community" tab="community">
+		<contributing label="Contributing" href="community/contributing.html"/>
+		<reportingProblems label="Reporting problems" href="help/reportingProblems.html"/>
+		<credits label="Credits" href="community/credits.html"/>
 		<forums label="Forums" href="http://sourceforge.net/forum/?group_id=182075"/>
 		<tracker label="Tracker" href="http://sourceforge.net/tracker/?group_id=182075"/>
-		<statistics label="Statistics" href="statistics.html"/>
+		<statistics label="Statistics" href="community/statistics.html"/>
 	</community>
 
 </site>

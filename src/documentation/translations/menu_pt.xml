@@ -10,6 +10,7 @@
 	<message key="Screenshots">Screenshots</message>
 	<message key="License">Licença</message>
 	<message key="Help">Ajuda</message>
+	<message key="Reporting problems">Reportar problemas</message>
 	
 	<!-- Menu da área de download -->
 	<message key="Installation">Instalação</message>
@@ -21,6 +22,9 @@
 	<message key="Chunker">Agrupador</message>
 	<message key="Tagger">Etiquetador Morfológico</message>
 	<message key="Tokenizer">Separador de Tokens</message>
+	
+	<!-- Wiki -->
+	<message key="Wiki page">Página Wiki</message>
 	
 	<!-- Menu comunidade -->
 	<message key="Community">Comunidade</message>

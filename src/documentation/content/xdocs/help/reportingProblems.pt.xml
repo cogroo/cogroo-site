@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE document PUBLIC "-//APACHE//DTD Documentation V2.0//EN" "http://forrest.apache.org/dtd/document-v20.dtd">
+
+<document>
+	<header>
+		<title>Reportando Problemas</title>
+		<abstract>
+			Use esta página para obter diretivas de como reportar problemas.
+		</abstract>
+	</header>
+	<body>
+		<section id="grammar">
+			<title>O corretor deixou de marcar um erro, ou marcou como errada uma frase correta</title>
+			<p>
+				Acesse a <a class="fork" href="http://cogroo.wiki.sourceforge.net/">Página Wiki</a> 
+				para obter informações de como reportar esse tipo de problema: 
+				<a class="fork" href="http://cogroo.wiki.sourceforge.net/Erros+Reportados">http://cogroo.wiki.sourceforge.net/Erros+Reportados</a>
+			</p>
+		</section>	
+		<section id="installation">
+			<title>Problemas de instalação</title>
+			<p>
+			Caso esteja com problemas de instalação e seguiu as instruçoes corretamente, visite nosso
+			<a href="faq.html">FAQ</a> para obter os logs da instalação. Envie os logs para o 
+			<a class="fork" href="http://sourceforge.net/forum/?group_id=182075">fórum</a> do projeto.
+			</p>
+		</section>	
+	</body>
+</document>

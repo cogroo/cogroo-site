@@ -12,34 +12,8 @@
 		<section id="opentasks">
 			<title>Tarefas em aberto</title>
 			<p>
-				Nosso projeto permanentemente necessita de ajuda. Dado que o número de pessoas participando
-				do projeto é muito limitado, existem tarefas que não têm previsão de serem realizadas
-				(e muito menos terminadas!).
-				Caso se interessem por alguma dessas tarefas e tenham afinidade com os assuntos relacionados,
-				veja na próxima seção como contribuir com o projeto. Contamos com sua ajuda!
+				Veja a lista de tarefas em aberto na nossa <a class="fork" href="http://cogroo.wiki.sourceforge.net/">Página Wiki</a>: <a class="fork" href="http://cogroo.wiki.sourceforge.net/Tarefas+em+Aberto">http://cogroo.wiki.sourceforge.net/Tarefas+em+Aberto</a>
 			</p>
-			<table>
-				<tr>
-					<th>Tarefa</th>
-					<th>Descrição</th>
-				</tr>
-				<tr>
-					<td>Consultoria lingüística (inglês)</td>
-					<td>
-						Precisamos da ajuda de um profissional de língua inglesa para consultoria
-						sobre os tipos de erros mais comuns da língua, além de nos ajudar também
-						nos assuntos relacionados à gramatica e ao léxico.
-					</td>
-				</tr>
-				<tr>
-					<td>Consultoria lingüística (espanhol)</td>
-					<td>
-						Precisamos da ajuda de um profissional de língua espanhola para consultoria
-						sobre os tipos de erros mais comuns da língua, além de nos ajudar também
-						nos assuntos relacionados à gramatica e ao léxico.
-					</td>
-				</tr>
-			</table>
 		</section>
 		<section id="how">
 			<title>Como contribuir</title>

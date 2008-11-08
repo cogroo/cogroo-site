@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE document PUBLIC "-//APACHE//DTD Documentation V2.0//EN" "http://forrest.apache.org/dtd/document-v20.dtd">
+
+<document>
+	<header>
+		<title>Wiki no Source Forge</title>
+		<abstract>
+			Use essa página para acessar o Wiki do SourceForge.
+		</abstract>
+	</header>
+	<body>
+		<p>
+			Acesse o Wiki por aqui: <a class="fork" href="http://cogroo.wiki.sourceforge.net/">http://cogroo.wiki.sourceforge.net/</a>
+		</p>		
+	</body>
+</document>
