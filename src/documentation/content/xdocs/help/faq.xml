@@ -135,5 +135,80 @@
 				</p>
 			</answer>
 		</faq>
+		<faq id="installaddonjavaloader">
+			<question>Durante a instalação obtive a mensagem: "could not create java implementation loader". O que fazer?</question>
+			<answer>
+				<p>
+					Antes de mais nada, remova o CoGrOO pelo Gerenciador de Extensões.
+				</p>
+				<p>	
+					<strong>Primeira tentativa</strong><br/>					
+					Esse erro pode acontecer quando se tem configurado algum parâmetro no Java. <br/> 
+					Clique em <code>Ferramentas >> Opções >> BrOffice.org >> Java</code> e clique em <code>Parâmetros</code><br/> 
+					Remova todos os parâmetros de início atribuídos <br/>
+					Reinicie o BrOffice.org, inclusive feche o Inicializador Rápido. <br/>
+					Tente instalar o CoGrOO novamente.
+				</p>
+				<p>					
+					<strong>Segunda tentativa</strong><br/>					
+					Se a primeira tentativa não funcionou, pode ser que a configuração do Java esteja invalida.<br/>
+					Delete o arquivo <code>javasettings_Windows*.xml</code>, onde * depende da plataforma da sua máquina, que está
+					localizado na pasta de configurações de usuário <br/>
+					No Windows XP seria algo como  <br/>
+					<code>C:\Document and Settings\[NomeDoUsuário]\Application Data\BrOffice.org\3\user\config\javasettings_Windows*.xml</code> <br/>
+					No Windows Vista  <br/>
+					<code>C:\Users\[NomeDoUsuário]\AppData\Roaming\BrOffice.org\3\user\config\javasettings_Windows*.xml</code> <br/>
+					Ou no Linux  <br/>
+					<code>/home/[NomeDoUsuário]/.broffice.org3/user/config/javasettings_Windows*.xml</code> <br/> <br/>
+					Reinicie o BrOffice.org, reinicie novamente, e tente instalar.
+					
+				</p>
+			</answer>
+		</faq>
+		<faq id="installaddon302">
+			<question>Esqueci de remover o CoGrOO 3.0.1 ou 3.0.0 antes de fazer upgrade para o BrOffice.org 3.0.1! O que fazer?</question>
+			<answer>
+				<p>
+					Se sobrou alguma instalação do CoGrOO quando atualizou para o BrOffice.org de 3.0.0 para 3.0.1, é impossível removê-la pelo
+					Gerenciador de Extensões.<br/>
+				</p>
+				<p>
+					<strong>Primeira tentativa</strong> que em geral não funciona!<br/>
+					Abra um prompt na pasta <strong>program</strong> da sua instalação do BrOffice.org, no Windows XP seria 
+					C:\Arquivos de Programas\BrOffice.org 3\program e execute o comando: <br/>
+					unopkg remove br.usp.pcs.lta.cogroo.ooointegration.oxt
+				</p>
+				<p>	
+					<strong>Segunda tentativa</strong> que funciona no MS Windows, mas não no Windows Vista!<br/>
+					Baixe o arquivo <link href="http://downloads.sourceforge.net/cogroo/RemoveGrammarChecker.zip">RemoveGrammarChecker.zip</link>,
+					descomprima e execute removeGrammarChecker.bat<br/>
+					Verifique se o Cogroo foi removido usando o Gerenciador de Extensões do BrOffice.org <br/>
+					<strong>Para outros sistemas operacionais</strong><br/>
+					Procure no seu computador os arquivos CoGrOO-AddOn-3.0.1.jar e gcoooaddon-0.0.5-SNAPSHOT.jar (nota: caso tenha instalado o 
+					CoGrOO 3.0.0, procure por CoGrOO-AddOn-3.0.0.jar) <br/>
+					Baixe o arquivo <link href="http://downloads.sourceforge.net/cogroo/RemoveGrammarChecker.zip">RemoveGrammarChecker.zip</link> 
+					e descompacte em uma nova pasta. Substitua todas as ocorrências dos arquivos .jar encontrados no passo anterior pelos novos,
+					da pasta RemoveGrammarChecker. (nota: caso tenha instalado o CoGrOO 3.0.0, renomeie o jar para CoGrOO-AddOn-3.0.0.jar)<br/> 
+				</p>
+				<p>					
+					<strong>Adoro o CoGrOO e aceito perder todas minhas configurações do BrOffice.org para que ele volte!</strong><br/>					
+					Nesse caso, desinstale o BrOffice.org do seu computador <br/>
+					Se o CoGrOO estava instalado para todos os usuários, remova a sua pasta, que em geral fica em -<br/>
+					No Windows C:\Program Files\BrOffice.org 3, ou C:\Arquivos de Programas\BrOffice.org 3 <br/>
+					No Linux depende da distribuição que usa, tente em /opt/ <br/>
+					Se o CoGrOO estava instalado apenas para um usuário, delete a pasta do usuário, que em geral fica em -<br/>
+					No Windows XP: C:\Documents and Settings\[usuário]\Application Data\BrOffice.org <br/>
+					No Windows Vista: C:\Users\William\AppData\Roaming\BrOffice.org  <br/>
+					No Linux: na pasta .openoffice da pasta home<br/>
+					
+					<strong>Notas</strong><br/>
+					
+					Troque BrOffice.org por OpenOffice.org caso tenha instalado a versão internacional do OOo. <br/>
+					No Windows alguns caminhos dependem do idioma: <br/>
+					Application Data - abra um prompt de comando e execute echo %AppData% <br/>
+					Program Files - execute echo %ProgramFiles%
+				</p>
+			</answer>
+		</faq>
 	</part>
 </faqs>

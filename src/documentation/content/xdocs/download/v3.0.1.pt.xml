@@ -2,9 +2,9 @@
 <!DOCTYPE document PUBLIC "-//APACHE//DTD Documentation V2.0//EN" "http://forrest.apache.org/dtd/document-v20.dtd">
 <document>
 	<header>
-		<title>Versão 3.0.0</title>
+		<title>Versão 3.0.1</title>
 		<abstract>
-			Aqui se pode obter uma versão do CoGrOO 3.0.0.<br/>
+			Faça o download do CoGrOO 3.0.1.<br/>
 		</abstract>
 	</header>
 	<body>
@@ -19,6 +19,10 @@
 				<li>Instalador .oxt, que facilita a instalação e atualizações</li>
 				<li>Instalador independente do sistema operacional</li>
 				<li>Erros são marcados durante a edição do texto</li>
+				<li>Diversos bugs corrigidos. <strong><sup>NOVO</sup></strong></li>
+				<li>Problema ao marcar QUE como sujeito corrigido. <strong><sup>NOVO</sup></strong></li>
+				<li>Melhor tratamento de sujeito composto (tratamento mais apurado apenas a longo prazo). <strong><sup>NOVO</sup></strong></li>
+				<li>Diversas sugestões de melhorias sugeridas pelos usuários. <strong><sup>NOVO</sup></strong></li>
 			</ul>
 		</section>
 		<section id="requirements">
@@ -36,8 +40,13 @@
 				Basta copiar o instalador para sua máquina, executar o instalador e seguir as instruções do próprio instalador.
 				Em caso de dúvidas, o processo é explicado <a href="installation.html#v3.x.windows">aqui</a>.
 			</p>
+			<note label="Configure o Java 1.6 no seu BrOffice.org/OpenOffice.org">
+				Tenha certeza que a versão do Java usada pela instalação do BrOffice.org 
+				(ou OpenOffice.org) é 1.6. Veja em 
+				<code>Ferramentas >> Opções >> BrOffice.org >> Java</code>.			
+			</note>
 			<p>
-				<a href="http://downloads.sourceforge.net/cogroo/CoGrOO-AddOn-3.0.0-bin.oxt">CoGrOO-AddOn-3.0.0-bin.oxt</a>
+				<a href="http://downloads.sourceforge.net/cogroo/CoGrOO-AddOn-3.0.1-bin.oxt">CoGrOO-AddOn-3.0.1-bin.oxt</a>
 			</p>
 		</section>
 		<section id="source">
@@ -47,13 +56,13 @@
 			</p>
 			<p>
 				OpenOffice.org Extension:<br/>
-				<a href="http://downloads.sourceforge.net/cogroo/CoGrOO-AddOn-3.0.0-src.zip">CoGrOO-AddOn-3.0.0-src.zip</a><br/>
-				<a href="http://downloads.sourceforge.net/cogroo/CoGrOO-AddOn-3.0.0-src.tar.gz">CoGrOO-AddOn-3.0.0-src.tar.gz</a><br/>
+				<a href="http://downloads.sourceforge.net/cogroo/CoGrOO-AddOn-3.0.1-src.zip">CoGrOO-AddOn-3.0.1-src.zip</a><br/>
+				<a href="http://downloads.sourceforge.net/cogroo/CoGrOO-AddOn-3.0.1-src.tar.gz">CoGrOO-AddOn-3.0.1-src.tar.gz</a><br/>
 			</p>
 			<p>
 				Corretor Gramatical:<br/>
-				<a href="http://downloads.sourceforge.net/cogroo/cogroo-3.0.0-src.zip">cogroo-3.0.0-src.zip</a><br/>
-				<a href="http://downloads.sourceforge.net/cogroo/cogroo-3.0.0-src.tar.gz">cogroo-3.0.0-src.tar.gz</a><br/>
+				<a href="http://downloads.sourceforge.net/cogroo/cogroo-3.0.1-src.zip">cogroo-3.0.1-src.zip</a><br/>
+				<a href="http://downloads.sourceforge.net/cogroo/cogroo-3.0.1-src.tar.gz">cogroo-3.0.1-src.tar.gz</a><br/>
 			</p>
 		</section>
 	</body>

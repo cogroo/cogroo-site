@@ -2,30 +2,31 @@
 <!DOCTYPE document PUBLIC "-//APACHE//DTD Documentation V2.0//EN" "http://forrest.apache.org/dtd/document-v20.dtd">
 <document>
 	<header>
-		<title>Versão 3.0.1</title>
+		<title>Versão 3.0.2</title>
 		<abstract>
-			Faça o download do CoGrOO 3.0.1.<br/>
+			Faça o download do CoGrOO 3.0.2.<br/>
 		</abstract>
 	</header>
 	<body>
+		<warning label="Compatibilidade">
+				Esta versão é compatível com BrOffice.org 3.0.1 ou superior. <br/>
+				Antes de fazer upgrade do BrOffice.org 3.0.0 para o 3.0.1, remova o CoGrOO 3.0.1 ou anterior usando o Gerenciador de Extenções, atualize o BrOffice.org, e finalmente atualize do CoGrOO.<br/>
+				Caso não tenha tomado esse cuidado, veja <a href="http://cogroo.sourceforge.net/help/faq.html#installaddon302">aqui</a> como recuperar sua instalação.
+		</warning>
 		<section id="whatsnew">
 			<title>Mudanças nesta versão, em relação à versão anterior</title>
 			<ul>
-				<li>Totalmente integrado com o OpenOffice.org</li>
-				<li>Instalador .oxt, que facilita a instalação e atualizações</li>
-				<li>Instalador independente do sistema operacional</li>
-				<li>Erros são marcados durante a edição do texto</li>
-				<li>Diversos bugs corrigidos. <strong><sup>NOVO</sup></strong></li>
-				<li>Problema ao marcar QUE como sujeito corrigido. <strong><sup>NOVO</sup></strong></li>
-				<li>Melhor tratamento de sujeito composto (tratamento mais apurado apenas a longo prazo). <strong><sup>NOVO</sup></strong></li>
-				<li>Diversas sugestões de melhorias sugeridas pelos usuários. <strong><sup>NOVO</sup></strong></li>
+				<li>Agora requer Java 1.5 ou melhor</li>
+				<li>Atualização automática pelo Gerenciador de Extensões do BrOffice.org</li>
+				<li>Mensagens de descrição dos erros gramaticais revistos para caber no menu de contexto do BrOffice.org</li>
+				<li>Mecanismo de aplicação de regras agora suporta operações AND e OR entre as máscaras.</li>
 			</ul>
 		</section>
 		<section id="requirements">
 			<title>Requisitos mínimos</title>
 			<ul>
-				<li>Java 1.6.0 ou mais novo (Sun - implementações livres como GIJ ou Kaffe podem não ser compatíveis)</li>
-				<li>OpenOffice.org 3.0</li>
+				<li>Java 1.5 ou mais novo (Sun - implementações livres como GIJ ou Kaffe podem não ser compatíveis)</li>
+				<li>OpenOffice.org 3.0.1 ou melhor</li>
 				<li>128MB de memória RAM</li>
 				<li><strong>7MB de disco rígido</strong></li>
 			</ul>
@@ -36,13 +37,13 @@
 				Basta copiar o instalador para sua máquina, executar o instalador e seguir as instruções do próprio instalador.
 				Em caso de dúvidas, o processo é explicado <a href="installation.html#v3.x.windows">aqui</a>.
 			</p>
-			<note label="Configure o Java 1.6 no seu BrOffice.org/OpenOffice.org">
+			<note label="Configure o Java 1.5 no seu BrOffice.org/OpenOffice.org">
 				Tenha certeza que a versão do Java usada pela instalação do BrOffice.org 
-				(ou OpenOffice.org) é 1.6. Veja em 
+				(ou OpenOffice.org) é 1.5. Veja em 
 				<code>Ferramentas >> Opções >> BrOffice.org >> Java</code>.			
 			</note>
 			<p>
-				<a href="http://downloads.sourceforge.net/cogroo/CoGrOO-AddOn-3.0.1-bin.oxt">CoGrOO-AddOn-3.0.1-bin.oxt</a>
+				<a href="http://downloads.sourceforge.net/cogroo/CoGrOO-AddOn-3.0.2-bin.oxt">CoGrOO-AddOn-3.0.2-bin.oxt</a>
 			</p>
 		</section>
 		<section id="source">
@@ -52,13 +53,13 @@
 			</p>
 			<p>
 				OpenOffice.org Extension:<br/>
-				<a href="http://downloads.sourceforge.net/cogroo/CoGrOO-AddOn-3.0.1-src.zip">CoGrOO-AddOn-3.0.1-src.zip</a><br/>
-				<a href="http://downloads.sourceforge.net/cogroo/CoGrOO-AddOn-3.0.1-src.tar.gz">CoGrOO-AddOn-3.0.1-src.tar.gz</a><br/>
+				<a href="http://downloads.sourceforge.net/cogroo/CoGrOO-AddOn-3.0.2-src.zip">CoGrOO-AddOn-3.0.2-src.zip</a><br/>
+				<a href="http://downloads.sourceforge.net/cogroo/CoGrOO-AddOn-3.0.2-src.tar.gz">CoGrOO-AddOn-3.0.2-src.tar.gz</a><br/>
 			</p>
 			<p>
 				Corretor Gramatical:<br/>
-				<a href="http://downloads.sourceforge.net/cogroo/cogroo-3.0.1-src.zip">cogroo-3.0.1-src.zip</a><br/>
-				<a href="http://downloads.sourceforge.net/cogroo/cogroo-3.0.1-src.tar.gz">cogroo-3.0.1-src.tar.gz</a><br/>
+				<a href="http://downloads.sourceforge.net/cogroo/cogroo-3.0.2-src.zip">cogroo-3.0.2-src.zip</a><br/>
+				<a href="http://downloads.sourceforge.net/cogroo/cogroo-3.0.2-src.tar.gz">cogroo-3.0.2-src.tar.gz</a><br/>
 			</p>
 		</section>
 	</body>

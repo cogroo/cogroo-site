@@ -72,6 +72,7 @@ MA 02111-1307 USA
 			<substitution expression="&#60;br /&#62;&#60;br /&#62; ${ad120x240}"/>
 		</replaceregexp>
 		
+		<copy file="${src.dir}/update/cogroo.update.xml" todir="${local.path}/update"/>
 		 
 		<echo message="end: execute ${forrest}"/>
 	</target>
