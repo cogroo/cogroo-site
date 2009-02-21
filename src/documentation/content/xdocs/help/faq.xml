@@ -173,13 +173,22 @@
 					Gerenciador de Extensões.<br/>
 				</p>
 				<p>
-					<strong>Primeira tentativa</strong> que em geral não funciona!<br/>
+					<strong>Primeira opção</strong> que em geral não funciona!<br/>
 					Abra um prompt na pasta <strong>program</strong> da sua instalação do BrOffice.org, no Windows XP seria 
 					C:\Arquivos de Programas\BrOffice.org 3\program e execute o comando: <br/>
 					unopkg remove br.usp.pcs.lta.cogroo.ooointegration.oxt
 				</p>
+				<p>
+					<strong>Segunda opção</strong><br />
+					Essa requer que tenha os instaladores do BrOffice.org 3.0.0 e 3.0.1. Foi sugerida pelo Alain M.<br />
+					1. Remova o BrOffice.org 3.0.1 (no caso do Windows, usando Adicionar / Remover Programs)<br />
+					2. Instale o BrOffice.org 3.0.0 <br />
+					3. Remova o CoGrOO 3.0.1 pelo Gerenciador de Extensões<br />
+					4. Instale o BrOffice.org 3.0.1<br />
+					5. Instale o CoGrOO 3.0.2<br />
+				</p>
 				<p>	
-					<strong>Segunda tentativa</strong> que funciona no MS Windows, mas não no Windows Vista!<br/>
+					<strong>Terceira opção</strong> que funciona no MS Windows, mas não no Windows Vista!<br/>
 					Baixe o arquivo <link href="http://downloads.sourceforge.net/cogroo/RemoveGrammarChecker.zip">RemoveGrammarChecker.zip</link>,
 					descomprima e execute removeGrammarChecker.bat<br/>
 					Verifique se o Cogroo foi removido usando o Gerenciador de Extensões do BrOffice.org <br/>
@@ -188,7 +197,9 @@
 					CoGrOO 3.0.0, procure por CoGrOO-AddOn-3.0.0.jar) <br/>
 					Baixe o arquivo <link href="http://downloads.sourceforge.net/cogroo/RemoveGrammarChecker.zip">RemoveGrammarChecker.zip</link> 
 					e descompacte em uma nova pasta. Substitua todas as ocorrências dos arquivos .jar encontrados no passo anterior pelos novos,
-					da pasta RemoveGrammarChecker. (nota: caso tenha instalado o CoGrOO 3.0.0, renomeie o jar para CoGrOO-AddOn-3.0.0.jar)<br/> 
+					da pasta RemoveGrammarChecker. (nota: caso tenha instalado o CoGrOO 3.0.0, renomeie o jar para CoGrOO-AddOn-3.0.0.jar)<br/>
+					Finalmente remova o CoGrOO usando o Gerenciador de Extensões, ou se preferir, executando o comando unopkg remove, conforme descrito
+					em Primeira Tentativa.
 				</p>
 				<p>					
 					<strong>Adoro o CoGrOO e aceito perder todas minhas configurações do BrOffice.org para que ele volte!</strong><br/>					
