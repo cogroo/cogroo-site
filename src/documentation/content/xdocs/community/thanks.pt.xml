@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!DOCTYPE document PUBLIC "-//APACHE//DTD Documentation V2.0//EN" "http://forrest.apache.org/dtd/document-v20.dtd">
+<document>
+	<header>
+		<title>Agradecimentos</title>
+		<abstract>
+			Agradecemos as contribuições financeiras recebidas pelo projeto. Tivemos apenas um doador, assim que tivermos 
+			mais doadores, informaremos a quantia total arrecadada e como ela foi aplicada. 
+		</abstract>
+	</header>
+	<body>
+		<section id="_2009">
+			<title>2009</title>
+			<p>
+				Doações pessoa física:
+			</p>
+			<ul>
+				<li>Dener Luiz da Silva - Minas Gerais (25/fev/2009)</li>
+			</ul>
+		</section>
+		<section id="_2006">
+			<title>2007</title>
+			<p>
+				O <a href="http://www.google.com/" class="fork">Google</a> doou um Corpus Treebank.
+			</p>
+		</section>
+		<section id="_2005">
+			<title>2005</title>
+			<p>
+				<a href="http://www.finep.gov.br/"  class="fork">FINEP</a> financiou o projeto por um ano. Nesse tempo estabelecemos o conhecimento na área e daí nasceu o CoGrOO 1.0.
+			</p>
+		</section>
+	</body>
+</document>

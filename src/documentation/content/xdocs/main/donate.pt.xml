@@ -5,13 +5,22 @@
 	<header>
 		<title>Doações</title>
 		<abstract>
-			Se você gosta do projeto CoGrOO e deseja que ele continue sendo aprimorado, 
-			faça uma doação. As doações feitas ao projeto serão utilizadas para promover 
-			participações em conferências e eventos, manutenção de hardware e para ajudar 
-			nos gastos com o desenvolvimento do projeto. 
+			O CoGrOO atualmente é vinculado ao <a href="http://ccsl.ime.usp.br/">CCSL</a>, que além de suportar 
+			os desenvolvedores e pesquisadores do projeto, fornece a infraestrutura de apoio.
+			Apoie o projeto oferecendo doações.<br/>
+			Empresas podem doar através do <a href="http://ccsl.ime.usp.br/">CCSL</a>, que possui mecanismos 
+			apropriados para receber contribuições de pessoas jurídicas. Pessoas físicas podem optar ainda por 
+			contribuir através do PagSeguro ou PayPal.  
 		</abstract>
 	</header>
 	<body>
+		<section id="ccsl">
+			<title>Doe pelo <a href="http://ccsl.ime.usp.br/">CCSL</a></title>
+			<p>
+				Envie um e-mail para <a href="mailto:cogroo@gmail.com">cogroo@gmail.com</a> com cópia para <a href="mailto:ccsl@ime.usp.br">ccsl@ime.usp.br</a> que responderemos com detalhes
+				de como proceder.
+			</p>
+		</section>
 		<section id="comofazer">
 			<title>Doe pelo PagSeguro</title>
 			<p>
@@ -37,7 +46,7 @@
 			<title>Agradecimentos</title>
 			<p>
 				Os doadores terão seus nomes mencionados na página do projeto em 
-				Comunidade >> Agradecimentos.
+				<a href="/community/thanks.html">agradecimentos</a>.
 			</p>
 		</section>
 	</body>

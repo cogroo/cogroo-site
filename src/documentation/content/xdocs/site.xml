@@ -44,6 +44,7 @@
 	
 	<community label="Community" tab="community">
 		<contributing label="Contributing" href="community/contributing.html"/>
+		<contributing label="Thanks" href="community/thanks.html"/>
 		<reportingProblems label="Reporting problems" href="help/reportingProblems.html"/>
 		<credits label="Credits" href="community/credits.html"/>
 		<forums label="Forums" href="http://sourceforge.net/forum/?group_id=182075"/>
