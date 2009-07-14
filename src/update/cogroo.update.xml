@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <description xmlns="http://openoffice.org/extensions/update/2006" xmlns:xlink="http://www.w3.org/1999/xlink">
 	<identifier value="br.usp.pcs.lta.cogroo.ooointegration.oxt" />
-	<version value="3.0.3" />
+	<version value="3.0.4" />
 	<update-download>
-		<src xlink:href="http://downloads.sourceforge.net/cogroo/CoGrOO-AddOn-3.0.3-bin.oxt" />
+		<src xlink:href="http://downloads.sourceforge.net/cogroo/CoGrOO-AddOn-3.0.5-bin.oxt" />
 	</update-download>
 	<publisher>
 		<name xlink:href="http://cogroo.sourceforge.net" lang="pt">CoGrOO</name>

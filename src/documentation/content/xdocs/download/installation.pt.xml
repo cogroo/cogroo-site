@@ -10,13 +10,17 @@
 	<body>
 	<section id="v3.0">
 			<title>3.x</title>
-				<note label="Configure o Java 1.6 no seu BrOffice.org/OpenOffice.org">
+				<note label="Configure o Java 1.5 (ou melhor) no seu BrOffice.org/OpenOffice.org">
 					Tenha certeza que a versão do Java usada pela instalação do BrOffice.org 
 					(ou OpenOffice.org) é 1.6. Veja em 
 					<code>Ferramentas >> Opções >> BrOffice.org >> Java</code>.			
 				</note>
+				<note label="Usuários Ubuntu">
+					Caso a instalação do CoGrOO falhe no Ubuntu, tente instalar o pacote <code>openoffice.org-java-common</code>:<br/>
+					<code>sudo apt-get install openoffice.org-java-common</code>			
+				</note>
 			<section id="v3.0oxt">
-				<title>OpenOffice.org EXtension (.oxt)</title>
+				<title>OpenOffice.org Extension (.oxt)</title>
 				<section>
 					<title>Instalação pelo sistema de arquivos</title>
 					<ol>

@@ -2,9 +2,9 @@
 <!DOCTYPE document PUBLIC "-//APACHE//DTD Documentation V2.0//EN" "http://forrest.apache.org/dtd/document-v20.dtd">
 <document>
 	<header>
-		<title>Versão 3.0.5</title>
+		<title>Versão 3.0.4</title>
 		<abstract>
-			Faça o download do CoGrOO 3.0.5.<br/>
+			Faça o download do CoGrOO 3.0.4.<br/>
 		</abstract>
 	</header>
 	<body>
@@ -16,8 +16,9 @@
 		<section id="whatsnew">
 			<title>Mudanças nesta versão, em relação à versão anterior</title>
 			<ul>
-				<li>Capacidade de "ignorar sempre" uma regra na verificação de um documento. Para reabilitar as regras execute "Ferramentas >> Corretor Gramatical CoGrOO >> Reiniciar verificação"</li>
-				<li>Novo banner, logo e ícone criados pelo Gonçalo Ferraz, da comunidade BrOffice.org.</li>
+				<li>Diversos problemas com o detector de palavras foram corrigidos.</li>
+				<li>Melhor tratamento de números decimais e sequências especiais: URL, e-mail etc.</li>
+				<li>Problemas de codificação na janela Sobre quando usando Linux foi corrigido.</li>
 			</ul>
 			<note label="Nota">Lista completa <a href="http://cogroo.wiki.sourceforge.net/Release+notes">aqui</a>.</note>
 		</section>
@@ -42,15 +43,23 @@
 				<code>Ferramentas >> Opções >> BrOffice.org >> Java</code>.			
 			</note>
 			<p>
-				<a href="http://extensions.services.openoffice.org/download/2453">CoGrOO-AddOn-3.0.5-bin.oxt</a>
+				<a href="http://downloads.sourceforge.net/cogroo/CoGrOO-AddOn-3.0.4-bin.oxt">CoGrOO-AddOn-3.0.4-bin.oxt</a>
 			</p>
 		</section>
 		<section id="source">
 			<title>Código-fonte</title>
 			<p>
-				Disponível para as pessoas que desejam se aventurar no mundo do CoGrOO: <br/>
-				<a href="http://downloads.sourceforge.net/cogroo/CoGrOO-3.0.5-project.zip">CoGrOO-3.0.5-project.zip</a><br/>
-				<a href="http://downloads.sourceforge.net/cogroo/CoGrOO-3.0.5-project.tar.gz">CoGrOO-3.0.5-project.tar.gz</a><br/>
+				Disponível para as pessoas que desejam se aventurar no mundo do CoGrOO.
+			</p>
+			<p>
+				OpenOffice.org Extension:<br/>
+				<a href="http://downloads.sourceforge.net/cogroo/CoGrOO-AddOn-3.0.4-src.zip">CoGrOO-AddOn-3.0.4-src.zip</a><br/>
+				<a href="http://downloads.sourceforge.net/cogroo/CoGrOO-AddOn-3.0.4-src.tar.gz">CoGrOO-AddOn-3.0.4-src.tar.gz</a><br/>
+			</p>
+			<p>
+				Corretor Gramatical:<br/>
+				<a href="http://downloads.sourceforge.net/cogroo/cogroo-3.0.4-src.zip">cogroo-3.0.4-src.zip</a><br/>
+				<a href="http://downloads.sourceforge.net/cogroo/cogroo-3.0.4-src.tar.gz">cogroo-3.0.4-src.tar.gz</a><br/>
 			</p>
 		</section>
 	</body>

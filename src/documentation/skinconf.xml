@@ -59,17 +59,23 @@
 	<!-- mandatory project logo
 		default skin: renders it at the top -->
 	<project-name>CoGrOO</project-name>
-	<project-description>Corretor Gramatical acoplável ao OpenOffice.org</project-description>
+	<!-- <project-description>Corretor Gramatical acoplável ao OpenOffice.org</project-description>
 	<project-url>http://cogroo.sourceforge.net/</project-url>
-	<project-logo>images/logo_gr.gif</project-logo>
+	<project-logo>images/Logo-CoGrOO-banner1.png</project-logo> -->
+	<project-description>Centro de Competência em Software Livre</project-description>
+	<project-url>http://ccsl.ime.usp.br/</project-url>
+	<project-logo>images/ccsl-cogroo.png</project-logo>
 	<!-- Alternative static image:
 		<project-logo>images/project-logo.gif</project-logo> -->
 	<!-- optional group logo
 		default skin: renders it at the top-left corner -->
-	<group-name>CoGrOO</group-name>
-	<group-description>Centro de Competência em Software Livre</group-description>
+	<group-name>CCSL</group-name>
+	<!-- <group-description>Centro de Competência em Software Livre</group-description>
 	<group-url>http://ccsl.ime.usp.br/</group-url>
-	<group-logo>images/ccsl-cogroo.png</group-logo>
+	<group-logo>images/ccsl-cogroo.png</group-logo> -->
+	<group-description>Corretor Gramatical acoplável ao OpenOffice.org</group-description>
+	<group-url>http://cogroo.sourceforge.net/</group-url>
+	<group-logo>images/Logo-CoGrOO-banner1.png</group-logo>
 	<!-- Alternative static image:
 		<group-logo>images/group-logo.gif</group-logo> -->
 	<!-- optional host logo (e.g. sourceforge logo)
@@ -98,7 +104,7 @@
 		directory.
 	-->
 	<trail>
-		<link1 name="pcs" href="http://www.pcs.usp.br/" />
+		<link1 name="ccsl" href="http://ccsl.ime.usp.br/" />
 		<link2 name="cogroo" href="http://cogroo.sourceforge.net/" />
 		<link3 name="" href="" />
 	</trail>
@@ -398,8 +404,22 @@
 			<height>51</height>
    		</credit>
 		<credit box-location="alt2">
+		    <name>Twitter</name>
+		    <url>http://twitter.com/CoGrOO</url>
+			<image>images/twitter.png</image>
+			<width>88</width>
+			<height>18</height>
+   		</credit>
+   		<credit box-location="alt2">
+		    <name>PartnerBadge</name>
+		    <url>http://PartnerBadge</url>
+			<image>images/built-with-forrest-button.png</image>
+			<width>88</width>
+			<height>31</height>
+   		</credit>
+		<credit box-location="alt2">
 		      <name>donationpagseguro</name>
-		      <url>http://forrest.apache.org/</url>
+		      <url>http://donationpagseguro</url>
 			<image>images/built-with-forrest-button.png</image>
 			<width>88</width>
 			<height>31</height>

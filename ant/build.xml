@@ -49,8 +49,14 @@ MA 02111-1307 USA
 		<exec executable="${forrest}"></exec>
 		
 		<replaceregexp byline="true">
+			  <fileset dir="${dist.dir}" includes="**/*.html" />
+			  <regexp pattern="&#60;a href=&#34;http://PartnerBadge.*?a&#62;"/>
+			  <substitution expression="&#60;script type=&#34;text/javascript&#34; src=&#34;http://www.ohloh.net/p/31474/widgets/project_thin_badge.js&#34;&#62;&#60;/script&#62;"/>
+		</replaceregexp>
+		
+		<replaceregexp byline="true">
 		  <fileset dir="${dist.dir}" includes="**/*.html" />
-		  <regexp pattern="&#60;a.*?donationpagseguro.*?a&#62;"/>
+		  <regexp pattern="&#60;a href=&#34;http://donationpagseguro.*?a&#62;"/>
 		  <substitution expression="&#60;br /&#62;&#60;!-- INICIO FORMULARIO BOTAO PAGSEGURO --&#62;&#60;form target=&#34;pagseguro&#34; action=&#34;https://pagseguro.uol.com.br/security/webpagamentos/webdoacao.aspx&#34; method=&#34;post&#34;&#62;&#60;input type=&#34;hidden&#34; name=&#34;email_cobranca&#34; value=&#34;colen@users.sourceforge.net&#34;&#62;&#60;input type=&#34;hidden&#34; name=&#34;moeda&#34; value=&#34;BRL&#34;&#62;&#60;input type=&#34;image&#34; src=&#34;https://pagseguro.uol.com.br/Security/Imagens/FacaSuaDoacao.gif&#34; name=&#34;submit&#34; alt=&#34;Pague com PagSeguro - é rápido, grátis e seguro!&#34;&#62;&#60;/form&#62;&#60;!-- FINAL FORMULARIO BOTAO PAGSEGURO --&#62;&#60;br /&#62;"/>
 		 </replaceregexp>
 		
