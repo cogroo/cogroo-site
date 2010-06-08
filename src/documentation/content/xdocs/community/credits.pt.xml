@@ -8,6 +8,24 @@
 		</abstract>
 	</header>
 	<body>
+		<section id="UIMA">
+			<title>UIMA AE</title>
+			<p>Revisão do código para melhorar modularização e criação de adaptadores compatíveis com a arquitetura <a class="fork" href="http://incubator.apache.org/uima">Apache UIMA</a>.
+			Projeto desenvolvido pelos alunos da disciplina de pós-graduação 
+			<a class="fork" href="http://ccsl.ime.usp.br/wiki/index.php/MAC5856">MAC5856 - Desenvolvimento de Software Livre</a>, oferecida pelo <a class="fork" href="http://www.ime.usp.br/dcc">Departamento de Ciência da Computação - IME/USP</a>. 
+			Os recursos desenvolvidos estão estão disponíveis na <a class="fork" href="http://ccsl.ime.usp.br/cogroo">página do projeto no portal CCSL.</a></p>
+			<p><strong>Professor responsável</strong></p>
+			<ul>
+				<li>Dr. Fabio Kon</li>
+			</ul>
+			<p><strong>Alunos</strong></p>
+			<ul>
+				<li>Edwin Miguel Triana Gomez</li>
+				<li>Rodrigo Zaccara</li>
+				<li>Victor Williams Stafusa da Silva</li>
+				<li>William Daniel Colen de Moura Silva</li>
+			</ul>
+		</section>
 		<section id="v3.0">
 			<title>v3.0 - Codinome 3.0</title>
 			<p>Revisão da engine do corretor gramatical revista e melhorada. Integração
