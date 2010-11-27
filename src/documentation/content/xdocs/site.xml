@@ -23,7 +23,8 @@
 	</help>
 	
 	<download label="Download" href="download/" tab="download">
-		<current label="3.0.5 (Java 5)" href="current.html"/>
+		<current label="3.1.0 (Java 5)" href="current.html"/>
+		<v3.0.5 label="3.0.5 (Java 5)" href="v3.0.5.html"/>
 		<v3.0.4 label="3.0.4 (Java 5)" href="v3.0.4.html"/>
 		<v3.0.3 label="3.0.3 (Java 5)" href="v3.0.3.html"/>
 		<v3.0.2 label="3.0.2 (Java 5)" href="v3.0.2.html"/>
