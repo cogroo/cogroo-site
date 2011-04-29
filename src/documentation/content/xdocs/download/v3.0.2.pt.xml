@@ -8,6 +8,9 @@
 		</abstract>
 	</header>
 	<body>
+		<warning label="Versão antiga">
+				Esta versão é antiga. Baixe a versão mais recente <a href="current.html">aqui</a>.
+		</warning>
 		<warning label="Compatibilidade">
 				Esta versão é compatível com BrOffice.org 3.0.1 ou superior. <br/>
 				Antes de fazer upgrade do BrOffice.org 3.0.0 para o 3.0.1, remova o CoGrOO 3.0.1 ou anterior usando o Gerenciador de Extensões, atualize o BrOffice.org, e finalmente atualize do CoGrOO.<br/>

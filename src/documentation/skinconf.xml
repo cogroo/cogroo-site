@@ -83,12 +83,12 @@
 	<host-url>http://sourceforge.net/</host-url>
 	<host-logo>http://sflogo.sourceforge.net/sflogo.php?group_id=221433&amp;type=4</host-logo>
 	<!-- relative url of a favicon file, normally favicon.ico -->
-	<favicon-url></favicon-url>
+	<favicon-url>images/favicon.ico</favicon-url>
 	<!-- The following are used to construct a copyright statement -->
 	<disable-copyright-footer>false</disable-copyright-footer>
 	<!-- @inception enable automatic generation of a date-range to current date -->
-	<year inception="true">2007</year>
-	<vendor>LTA - PCS - USP</vendor>
+	<year inception="true">2011</year>
+	<vendor>CCSL - IME - USP</vendor>
 	<!-- The optional copyright-link URL will be used as a link in the
 		copyright statement -->
 	<!--	<copyright-link>http://www.example.org/</copyright-link>-->
@@ -411,12 +411,19 @@
 			<height>18</height>
    		</credit>
    		<credit box-location="alt2">
+		    <name>CoGrOO Comunidade. Faça parte!</name>
+		    <url>http://ccsl.ime.usp.br/cogroo/comunidade/</url>
+			<image>images/Logo-CoGrOO-icone.png</image>
+			<width>100</width>
+			<height>100</height>
+   		</credit>
+   		<!-- <credit box-location="alt2">
 		    <name>PartnerBadge</name>
 		    <url>http://PartnerBadge</url>
 			<image>images/built-with-forrest-button.png</image>
 			<width>88</width>
 			<height>31</height>
-   		</credit>
+   		</credit> -->
 		<credit box-location="alt2">
 		      <name>donationpagseguro</name>
 		      <url>http://donationpagseguro</url>

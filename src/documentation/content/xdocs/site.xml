@@ -24,7 +24,7 @@
 	
 	<download label="Download" href="download/" tab="download">
 		<current label="3.1.0 (Java 5)" href="current.html"/>
-		<v3.0.5 label="3.0.5 (Java 5)" href="v3.0.5.html"/>
+		<!--<v3.0.5 label="3.0.5 (Java 5)" href="v3.0.5.html"/>
 		<v3.0.4 label="3.0.4 (Java 5)" href="v3.0.4.html"/>
 		<v3.0.3 label="3.0.3 (Java 5)" href="v3.0.3.html"/>
 		<v3.0.2 label="3.0.2 (Java 5)" href="v3.0.2.html"/>
@@ -37,15 +37,16 @@
 		<v2.0.0 label="2.0.0 (Java 5)" href="v2.0.0.html"/>
 		<v2.0.beta1 label="2.0.beta1 (Java 5)" href="v2.0.beta1.html"/>
 		<v1.2 label="1.2 (Perl)" href="v1.2.html"/>
-		<v1.1 label="1.1 (Perl)" href="v1.1.html"/>
+		<v1.1 label="1.1 (Perl)" href="v1.1.html"/>-->
 		<installation label="Installation" href="installation.html"/>
+		<old label="Versões antigas" href="oldversions.html"/>
 	</download>
 	
 	<wiki label="Wiki page" href="wiki/" tab="wiki">
 		<main label="Main" href="wiki.html"/>
 	</wiki>
 	
-	<community label="Community" tab="community">
+	<community label="Contribuindo" tab="community">
 		<contributing label="Contributing" href="community/contributing.html"/>
 		<contributing label="Thanks" href="community/thanks.html"/>
 		<reportingProblems label="Reporting problems" href="help/reportingProblems.html"/>

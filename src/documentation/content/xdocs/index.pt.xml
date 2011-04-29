@@ -4,14 +4,14 @@
 <document>
 	<header>
 		<title>
-			CoGrOO - Corretor Gramatical acoplável ao OpenOffice.org
+			CoGrOO - Corretor Gramatical acoplável ao LibreOffice
 		</title>
 	</header>
 	<body>
 		<section id="overview">
 			<title>O que faz o CoGrOO?</title>
 			<p>
-				O <strong>CoGrOO</strong> é um <strong>corretor gramatical</strong> acoplável ao OpenOffice.org.
+				O <strong>CoGrOO</strong> é um <strong>corretor gramatical</strong> acoplável ao LibreOffice.
 			</p>
 			<p>
 				Cabe aqui uma breve distinção entre corretores gramaticais e ortográficos:
@@ -61,6 +61,12 @@
 					erros comuns da língua portuguesa escrita
 				</li>
 			</ul>
+		</section>
+		<section id="comunidade">
+			<title>O CoGrOO Comunidade</title>
+			<p>
+				O <a class="fork" href="http://ccsl.ime.usp.br/cogroo/comunidade/">CoGrOO Comunidade</a> é o portal colaborativo para o desenvolvimento do corretor gramatical. Nele é possível reportar erros, discutir, e no futuro desenvolver novas regras.
+			</p>
 		</section>
 		<section id="whatshere">
 			<!-- XXX escrever o que as tabs contém -->

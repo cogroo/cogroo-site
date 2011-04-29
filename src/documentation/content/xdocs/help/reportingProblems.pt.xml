@@ -12,9 +12,7 @@
 		<section id="grammar">
 			<title>O corretor deixou de marcar um erro, ou marcou como errada uma frase correta</title>
 			<p>
-				Acesse a <a class="fork" href="http://cogroo.wiki.sourceforge.net/">Página Wiki</a> 
-				para obter informações de como reportar esse tipo de problema: 
-				<a class="fork" href="http://cogroo.wiki.sourceforge.net/Erros+Reportados">http://cogroo.wiki.sourceforge.net/Erros+Reportados</a>
+				Use o CoGrOO Comunidade para reportar erros: <a class="fork" href="http://ccsl.ime.usp.br/cogroo/comunidade/">http://ccsl.ime.usp.br/cogroo/comunidade/</a>. Efetue uma Análise Gramatical do texto e use "Reportar Problema".
 			</p>
 		</section>	
 		<section id="installation">

@@ -3,14 +3,14 @@
 
 <document>
 	<header>
-		<title>Wiki no Source Forge</title>
+		<title>Wiki no CCSL</title>
 		<abstract>
-			Use essa página para acessar o Wiki do SourceForge.
+			Use essa página para acessar o Wiki do CCSL.
 		</abstract>
 	</header>
 	<body>
 		<p>
-			Acesse o Wiki por aqui: <a class="fork" href="http://sourceforge.net/apps/trac/cogroo/wiki">http://sourceforge.net/apps/trac/cogroo/wiki</a>
+			Acesse o Wiki por aqui: <a class="fork" href="http://ccsl.ime.usp.br/redmine/projects/cogroo/wiki">http://ccsl.ime.usp.br/redmine/projects/cogroo/wiki</a>
 		</p>		
 	</body>
 </document>

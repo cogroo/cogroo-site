@@ -10,7 +10,7 @@
 		<name xlink:href="http://cogroo.sourceforge.net" lang="en">CoGrOO</name>
 	</publisher>
 	<release-notes>
-		<src xlink:href="http://cogroo.wiki.sourceforge.net/Release+notes" lang="pt" />
-		<src xlink:href="http://cogroo.wiki.sourceforge.net/Release+notes" lang="en" />
+		<src xlink:href="http://ccsl.ime.usp.br/redmine/projects/cogroo/wiki/Release_notes" lang="pt" />
+		<src xlink:href="http://ccsl.ime.usp.br/redmine/projects/cogroo/wiki/Release_notes" lang="en" />
 	</release-notes>
 </description>

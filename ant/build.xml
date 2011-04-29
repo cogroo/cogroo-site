@@ -48,11 +48,11 @@ MA 02111-1307 USA
 		<echo message="start: execute ${forrest}"/>
 		<exec executable="${forrest}"></exec>
 		
-		<replaceregexp byline="true">
+		<!--<replaceregexp byline="true">
 			  <fileset dir="${dist.dir}" includes="**/*.html" />
 			  <regexp pattern="&#60;a href=&#34;http://PartnerBadge.*?a&#62;"/>
 			  <substitution expression="&#60;script type=&#34;text/javascript&#34; src=&#34;http://www.ohloh.net/p/31474/widgets/project_thin_badge.js&#34;&#62;&#60;/script&#62;"/>
-		</replaceregexp>
+		</replaceregexp>-->
 		
 		<replaceregexp byline="true">
 		  <fileset dir="${dist.dir}" includes="**/*.html" />
@@ -76,6 +76,15 @@ MA 02111-1307 USA
 			<fileset dir="${dist.dir}" includes="**/*.html" />
 			<regexp pattern="(&#60;a href=&#34;http://www.uol.com.br/).*?a&#62;"/>
 			<substitution expression="&#60;br /&#62;&#60;br /&#62; ${ad120x240}"/>
+		</replaceregexp>
+		
+		<loadfile property="analytics"
+				      srcFile="${src.dir}/google/analytics.txt"/>
+		
+		<replaceregexp byline="true">
+			<fileset dir="${dist.dir}" includes="**/*.html" />
+			<regexp pattern="&#60;/head&#62;"/>
+			<substitution expression="${analytics}"/>
 		</replaceregexp>
 		
 		<copy file="${src.dir}/update/cogroo.update.xml" todir="${local.path}/update"/>
@@ -149,7 +158,8 @@ MA 02111-1307 USA
 		/>
 	</target>
 	
-	<target name="all" depends="clean, 1.generate.site, 2.package.site, 3.delete.site, 4.upload.site, 5.unzip.site, 6.change.permissions, 7.delete.site.package"/>
+	<target name="all" depends="clean, 1.generate.site, 2.package.site"/>
+	<!--<target name="all" depends="clean, 1.generate.site, 2.package.site, 3.delete.site, 4.upload.site, 5.unzip.site, 6.change.permissions, 7.delete.site.package"/>-->
 	
 	<!-- ************************* CLEAN UP TASKS ************************** -->
 	

@@ -8,6 +8,9 @@
 		</abstract>
 	</header>
 	<body>
+		<warning label="Versão antiga">
+				Esta versão é antiga. Baixe a versão mais recente <a href="current.html">aqui</a>.
+		</warning>
 		<warning label="Compatibilidade">
 				Esta versão é apenas compatível com BrOffice.org 3.0.0.
 				Para compatibilidade com BrOffice.org 3.0.1 ou superior, use o CoGrOO 3.0.2.

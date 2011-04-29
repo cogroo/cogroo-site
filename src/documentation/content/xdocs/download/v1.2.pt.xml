@@ -10,6 +10,9 @@
 		</abstract>
 	</header>
 	<body>
+		<warning label="Versão antiga">
+				Esta versão é antiga. Baixe a versão mais recente <a href="current.html">aqui</a>.
+		</warning>
 			<warning label="Última versão da família 1">
 				A versão 1.2 será a última versão da família 1, que é feita em linguagem Perl e Java.
 				A próxima família de versões será a 2 e utilizará somente Java 1.5 ou maior.

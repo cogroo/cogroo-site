@@ -10,6 +10,9 @@
 		</abstract>
 	</header>
 	<body>
+		<warning label="Versão antiga">
+				Esta versão é antiga. Baixe a versão mais recente <a href="current.html">aqui</a>.
+		</warning>
 		<section id="whatsnew">
 			<title>Mudanças nesta versão, em relação à família de versões 1.x</title>
 			<ul>

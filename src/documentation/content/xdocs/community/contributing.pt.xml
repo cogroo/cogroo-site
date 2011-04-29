@@ -2,21 +2,27 @@
 <!DOCTYPE document PUBLIC "-//APACHE//DTD Documentation V2.0//EN" "http://forrest.apache.org/dtd/document-v20.dtd">
 <document>
 	<header>
-		<title>Comunidade CoGrOO</title>
+		<title>Contribuindo</title>
 		<abstract>
 			Aqui você encontrará informações de tarefas em aberto e ficará sabendo como contribuir
 			com o progresso do projeto.
 		</abstract>
 	</header>
 	<body>
+		<section id="comunidade">
+			<title>Portal CoGrOO Comunidade</title>
+			<p>
+				O <a class="fork" href="http://ccsl.ime.usp.br/cogroo/comunidade/">CoGrOO Comunidade</a> é o portal colaborativo para o desenvolvimento do corretor gramatical. Nele é possível reportar erros, discutir, e no futuro desenvolver novas regras.
+			</p>
+			<p>
+				Esta é a forma mais fácil de começar a contribuir. Para maiores detalhes sobre o portal leia o artigo publicado na <a class="fork" href="http://www.broffice.org/revista">Revista BrOffice.org nº17</a>
+			</p>
+		</section>
 		<section id="opentasks">
 			<title>Tarefas em aberto</title>
 			<p>
-				Veja a lista de tarefas em aberto na nossa <a class="fork" href="http://cogroo.wiki.sourceforge.net/">Página Wiki</a>: <a class="fork" href="http://cogroo.wiki.sourceforge.net/Tarefas+em+Aberto">http://cogroo.wiki.sourceforge.net/Tarefas+em+Aberto</a>
+				Veja a lista de tarefas em aberto na nossa <a class="fork" href="http://ccsl.ime.usp.br/redmine/projects/cogroo/wiki">Página Wiki</a>: <a class="fork" href="http://ccsl.ime.usp.br/redmine/projects/cogroo/wiki/Tarefas_em_Aberto">http://ccsl.ime.usp.br/redmine/projects/cogroo/wiki/Tarefas_em_Aberto</a>
 			</p>
-		</section>
-		<section id="how">
-			<title>Como contribuir</title>
 			<p>
 				Se o seu perfil se adequa a alguma tarefa descrita acima, fale conosco
 				pelo email <strong>cogroo at gmail.com</strong> e poderemos combinar de que forma poderá nos ajudar.
