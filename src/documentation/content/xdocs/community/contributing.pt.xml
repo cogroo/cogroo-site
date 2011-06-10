@@ -19,13 +19,21 @@
 			</p>
 		</section>
 		<section id="opentasks">
-			<title>Tarefas em aberto</title>
+			<title>Tarefas de desenvolvimento</title>
 			<p>
-				Veja a lista de tarefas em aberto na nossa <a class="fork" href="http://ccsl.ime.usp.br/redmine/projects/cogroo/wiki">Página Wiki</a>: <a class="fork" href="http://ccsl.ime.usp.br/redmine/projects/cogroo/wiki/Tarefas_em_Aberto">http://ccsl.ime.usp.br/redmine/projects/cogroo/wiki/Tarefas_em_Aberto</a>
+				Veja como colaborar no desenvolvimento do CoGrOO Comunidade na página 
+				<a href="http://ccsl.ime.usp.br/cogroo/comunidade/development">desenvolvimento do Comunidade</a>.
 			</p>
 			<p>
-				Se o seu perfil se adequa a alguma tarefa descrita acima, fale conosco
-				pelo email <strong>cogroo at gmail.com</strong> e poderemos combinar de que forma poderá nos ajudar.
+				Para trabalhar no núcleo do corretor gramatical você precisa 
+				<a href="http://ccsl.ime.usp.br/redmine/projects/cogroo/wiki/Ambiente_de_Desenvolvimento">preparar o ambiente de desenvolvimento</a>.
+			</p>
+			<p>
+				Se quiser modificar as regras, experimente <a href="http://ccsl.ime.usp.br/redmine/projects/cogroo/wiki/Como_criar_ou_modificar_regras">este tutorial</a>.
+			</p>
+			<p>
+				Existem muitas tarefas em aberto no <a href="http://ccsl.ime.usp.br/redmine/projects/cogroo/issues">Issue Tracker</a> do projeto.
+				Você pode escolher uma que te agrade e submeter um patch. Caso tenha dúvidas, queira sugestões ou acompanhamento em uma tarefa entre em contato pelo fórum. 
 			</p>
 		</section>
 		<section id="finantial">
