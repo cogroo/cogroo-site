@@ -4,11 +4,50 @@
 	<header>
 		<title>Agradecimentos</title>
 		<abstract>
-			Agradecemos as contribuições financeiras recebidas pelo projeto. Tivemos apenas um doador, assim que tivermos 
-			mais doadores, informaremos a quantia total arrecadada e como ela foi aplicada. 
+			Agradecemos as contribuições financeiras recebidas pelo projeto.
 		</abstract>
 	</header>
-	<body>
+	<body>		
+		<section id="_res">
+			<title>Resumo doações em dinheiro</title>
+			<p>
+				Total arrecadado: <strong>R$ 120,44</strong> (até junho de 2011)
+				</p>
+			<p>
+			A quantia foi parcialmente utilizada para confecção de material de divulgação
+			para os eventos que o CoGrOO participa:
+			</p>
+			<ul>
+				<li>FISL 2009 e 2010</li>
+				<li>Latinoware 2010</li>
+				<li>ENBRO 2010</li>
+				<li>Encontro Linguistica da USP 2009 e 2010</li>
+			</ul>
+			<p>
+				Estamos programando uma maratona de desenvolvimento para 2011!
+				Nesta maratona teremos uma tarde de teoria e 
+				prática, introduzindo a técnologia do CoGrOO aos desenvolvedores e linguistas interessados. 
+				Colabore com nosso evento!
+			</p>
+		</section>	
+		<section id="_2011">
+			<title>2011</title>
+			<p>
+				Doações pessoa jurídica:
+			</p>
+			<ul>
+				<li>Ponto Desk Sistemas - (21/mai/2011)</li>
+			</ul>
+		</section>	
+		<section id="_2010">
+			<title>2010</title>
+			<p>
+				Doações pessoa física:
+			</p>
+			<ul>
+				<li>Renam Guimarães - (6/out/2010)</li>
+			</ul>
+		</section>		
 		<section id="_2009">
 			<title>2009</title>
 			<p>
