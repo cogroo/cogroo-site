@@ -2,20 +2,18 @@
 <!DOCTYPE document PUBLIC "-//APACHE//DTD Documentation V2.0//EN" "http://forrest.apache.org/dtd/document-v20.dtd">
 <document>
 	<header>
-		<title>Versão 3.1.2</title>
+		<title>Versão 3.1.0</title>
 		<abstract>
-			Faça o download do CoGrOO 3.1.2.<br/>
+			Faça o download do CoGrOO 3.1.0.<br/>
 		</abstract>
 	</header>
 	<body>
-		
-		<p><a href="http://downloads.sourceforge.net/cogroo/CoGrOO-AddOn-3.1.2-bin.oxt"><img  src="images/BaixarCoGrOO.png" alt="Baixar CoGrOO"></img></a></p>
 		<note label="*novo* CoGrOO Comunidade">
 				Esta versão é compatível com portal <a href="http://ccsl.ime.usp.br/cogroo/comunidade">CoGrOO Comunidade</a>, que permite interação entre usuários e desenvolvedores com o objetivo de aprimorar o corretor,
 				indicando falhas, ampliando as regras e o vacabulário. <br/>
 				No BrOffice, você pode reportar omissões ou intervenções indevidas através do menu <code>Ferramentas >> Corretor Gramatical CoGrOO >> Reportar erro...</code> e ainda no menu de contexto, ao clicar em um texto selecionado com o botão direito, e em seguida <code>Reportar erro do CoGrOO...</code>.<br/>
 				<strong>Problema no BrOffice 3.2.1: </strong> um problema no BrOffice impede que a opção Reportar erro do CoGrOO, apareça no menu de contexto e que a opção Reportar erro no menu Ferramentas seja habilitado. Se isso acontecer, instale o Cogroo pela linha de comando: <br/>
-				<code>unopkg add -f CoGrOO-AddOn-3.1.2-bin.oxt</code>
+				<code>unopkg add -f CoGrOO-AddOn-3.1.0-bin.oxt</code>
 		</note>
 		<note label="Erros comuns na instalação">
 				<strong>No Ubuntu</strong><br/>
@@ -59,16 +57,15 @@
 				<code>Ferramentas >> Opções >> BrOffice >> Java</code>.			
 			</note>
 			<p>
-				<a href="http://downloads.sourceforge.net/cogroo/CoGrOO-AddOn-3.1.2-bin.oxt"><img  src="images/BaixarCoGrOO.png" alt="Baixar CoGrOO"></img></a><br/>
-				<a href="http://downloads.sourceforge.net/cogroo/CoGrOO-AddOn-3.1.2-bin.oxt">CoGrOO-AddOn-3.1.2-bin.oxt</a>
+				<a href="http://extensions.services.openoffice.org/download/4572">CoGrOO-AddOn-3.1.0-bin.oxt</a>
 			</p>
 		</section>
 		<section id="source">
 			<title>Código-fonte</title>
 			<p>
 				Disponível para as pessoas que desejam se aventurar no mundo do CoGrOO: <br/>
-				<a href="http://downloads.sourceforge.net/cogroo/CoGrOO-3.1.2-project.zip">CoGrOO-3.1.2-project.zip</a><br/>
-				<a href="http://downloads.sourceforge.net/cogroo/CoGrOO-3.1.2-project.tar.gz">CoGrOO-3.1.2-project.tar.gz</a><br/>
+				<a href="http://downloads.sourceforge.net/cogroo/CoGrOO-3.1.0-project.zip">CoGrOO-3.1.0-project.zip</a><br/>
+				<a href="http://downloads.sourceforge.net/cogroo/CoGrOO-3.1.0-project.tar.gz">CoGrOO-3.1.0-project.tar.gz</a><br/>
 			</p>
 		</section>
 	</body>
