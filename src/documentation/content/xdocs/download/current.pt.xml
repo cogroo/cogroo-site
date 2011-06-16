@@ -33,10 +33,10 @@
 		<section id="whatsnew">
 			<title>Mudanças nesta versão, em relação à versão anterior</title>
 			<ul>
-				<li>Diversas mudanças na infraestrutura do programa</li>
-				<li>Integração com o <a href="http://ccsl.ime.usp.br/cogroo/comunidade">CoGrOO Comunidade</a></li>
+				<li>Agora é possível enviar relatório de erro clicando em um link gerado pela extensão. Para acessar siga "Ferramentas >> Corretor Gramatical CoGrOO >> Reportar erro..." e clique em "Clique aqui para reportar pelo navegador"</li>
+				<li>As regras 117, 118 e 124 apresentavam muitos falsos positivos e foram desativadas. Elas serão reativadas quando o novo chunker e shallow parser for integrado.</li>
+				<li>Diversas pequenas correções. Veja <a href="http://ccsl.ime.usp.br/redmine/projects/cogroo/wiki/Release_notes">lista completa</a>.</li>
 			</ul>
-			<p><a href="http://ccsl.ime.usp.br/redmine/projects/cogroo/wiki/Release_notes">Lista completa</a></p>
 		</section>
 		<section id="requirements">
 			<title>Requisitos mínimos</title>
