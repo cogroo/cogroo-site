@@ -8,6 +8,18 @@
 		</abstract>
 	</header>
 	<body>
+		<section id="v3.1">
+			<title>v3.1</title>
+			<p>Resolução de bugs, integração com o CoGrOO Comunidade.</p>
+			<p><strong>Colaboradores</strong></p>
+			<ul>
+				<li>Michel Oleynik</li>
+				<li>Wesley Seidel*</li>
+				<li>William Colen*</li>
+			</ul>
+			<note>* Wesley Seidel e William Colen oferecem serviços de Processamento de Linguagens Naturais através do projeto <a class="fork" href="http://www.ltasks.com">LTasks</a>.</note>
+			
+		</section>
 		<section id="UIMA">
 			<title>UIMA AE</title>
 			<p>Revisão do código para melhorar modularização e criação de adaptadores compatíveis com a arquitetura <a class="fork" href="http://incubator.apache.org/uima">Apache UIMA</a>.
