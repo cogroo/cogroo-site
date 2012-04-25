@@ -66,6 +66,12 @@ MA 02111-1307 USA
 		<loadfile property="ad120x90"
 				      srcFile="${src.dir}/google/ad120x90.txt"/>
 		
+		<loadfile property="analytics"
+				      srcFile="${src.dir}/google/analytics.txt"/>
+		
+		<loadfile property="social"
+				      srcFile="${src.dir}/social/social.txt"/>
+		
 		<replaceregexp byline="true">
 			<fileset dir="${dist.dir}" includes="**/*.html" />
 			<regexp pattern="(&#60;a href=&#34;http://www.google.com/).*?a&#62;"/>
@@ -78,13 +84,17 @@ MA 02111-1307 USA
 			<substitution expression="&#60;br /&#62;&#60;br /&#62; ${ad120x240}"/>
 		</replaceregexp>
 		
-		<loadfile property="analytics"
-				      srcFile="${src.dir}/google/analytics.txt"/>
-		
 		<replaceregexp byline="true">
 			<fileset dir="${dist.dir}" includes="**/*.html" />
 			<regexp pattern="&#60;/head&#62;"/>
 			<substitution expression="${analytics}"/>
+		</replaceregexp>
+		
+		<!-- <div id="content"> -->
+		<replaceregexp byline="true">
+			<fileset dir="${dist.dir}" includes="**/*.html" />
+			<regexp pattern="&#60;div id=&#34;content&#34;&#62;"/>
+			<substitution expression="${social}"/>
 		</replaceregexp>
 		
 		<copy file="${src.dir}/update/cogroo.update.xml" todir="${local.path}/update"/>
