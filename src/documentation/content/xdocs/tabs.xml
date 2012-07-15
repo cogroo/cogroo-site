@@ -10,6 +10,6 @@
 	
 	<tab id="community" label="Contribuindo" dir="community" indexfile="contributing.html"/>
 	<tab id="forums" label="Forums" href="http://sourceforge.net/forum/?group_id=182075"/>
-	<tab id="portalcommunity" label="Portal CoGrOO Comunidade" href="http://ccsl.ime.usp.br/cogroo/comunidade/"/>
+	<tab id="portalcommunity" label="Portal CoGrOO Comunidade" href="http://comunidade.cogroo.org/"/>
 
 </tabs>

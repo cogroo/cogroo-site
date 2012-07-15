@@ -124,7 +124,7 @@
 		feedback link in the footer with the page pathname appended:
 		<a href="@href">{@to}</a>
 	-->
-	<feedback to="cogroo@gmail.com" href="mailto:cogroo@gmail.com?subject=Feedback&#160;"></feedback>
+	<feedback to="cogroo@cogroo.org" href="mailto:cogroo@cogroo.org?subject=Feedback&#160;"></feedback>
 	<!-- Optional message of the day (MOTD).
 		Note: This is only implemented in the pelt skin.
 		Note: Beware issue FOR-677 if you use an absolute path uri.
@@ -412,7 +412,7 @@
    		</credit>
    		<credit box-location="alt2">
 		    <name>CoGrOO Comunidade. Faça parte!</name>
-		    <url>http://ccsl.ime.usp.br/cogroo/comunidade/</url>
+		    <url>http://comunidade.cogroo.org/</url>
 			<image>images/Logo-CoGrOO-icone.png</image>
 			<width>100</width>
 			<height>100</height>
