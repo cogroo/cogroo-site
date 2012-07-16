@@ -20,7 +20,9 @@
 	is named by their speakers.
 -->
 <catalogue>
+<!-- 
 	<message key="en">English</message>
 	<message key="es">Español</message>
+ -->
 	<message key="pt">Português</message>
 </catalogue>

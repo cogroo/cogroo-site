@@ -3,7 +3,7 @@
 	<identifier value="br.usp.pcs.lta.cogroo.ooointegration.oxt" />
 	<version value="3.1.2" />
 	<update-download>
-		<src xlink:href="http://downloads.sourceforge.net/cogroo/CoGrOO-AddOn-3.1.2-bin.oxt" />
+		<src xlink:href="http://downloads.sourceforge.net/cogroo/CoGrOO-AddOn-3.2.0-bin.oxt" />
 	</update-download>
 	<publisher>
 		<name xlink:href="http://cogroo.sourceforge.net" lang="pt">CoGrOO</name>
