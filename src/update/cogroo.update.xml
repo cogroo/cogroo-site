@@ -6,8 +6,8 @@
 		<src xlink:href="http://downloads.sourceforge.net/cogroo/CoGrOO-AddOn-3.2.0-bin.oxt" />
 	</update-download>
 	<publisher>
-		<name xlink:href="http://cogroo.sourceforge.net" lang="pt">CoGrOO</name>
-		<name xlink:href="http://cogroo.sourceforge.net" lang="en">CoGrOO</name>
+		<name xlink:href="http://cogroo.org" lang="pt">CoGrOO</name>
+		<name xlink:href="http://cogroo.org" lang="en">CoGrOO</name>
 	</publisher>
 	<release-notes>
 		<src xlink:href="http://ccsl.ime.usp.br/redmine/projects/cogroo/wiki/Release_notes" lang="pt" />

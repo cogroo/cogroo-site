@@ -14,7 +14,7 @@
 		<warning label="Compatibilidade">
 				Esta versão é compatível com BrOffice.org 3.0.1 ou superior. <br/>
 				Antes de fazer upgrade do BrOffice.org 3.0.0 para o 3.0.1, remova o CoGrOO 3.0.1 ou anterior usando o Gerenciador de Extensões, atualize o BrOffice.org, e finalmente atualize do CoGrOO.<br/>
-				Caso não tenha tomado esse cuidado, veja <a href="http://cogroo.sourceforge.net/help/faq.html#installaddon302">aqui</a> como recuperar sua instalação.
+				Caso não tenha tomado esse cuidado, veja <a href="http://cogroo.org/help/faq.html#installaddon302">aqui</a> como recuperar sua instalação.
 		</warning>
 		<section id="whatsnew">
 			<title>Mudanças nesta versão, em relação à versão anterior</title>
