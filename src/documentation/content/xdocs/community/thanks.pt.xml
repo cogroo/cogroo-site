@@ -11,11 +11,13 @@
 		<section id="_res">
 			<title>Resumo doações em dinheiro</title>
 			<p>
-				Total arrecadado: <strong>R$ 120,44</strong> (até junho de 2011)
+				Total arrecadado: <strong>R$ 121,51</strong> (até julho de 2012)
 				</p>
 			<p>
-			A quantia foi parcialmente utilizada para confecção de material de divulgação
-			para os eventos que o CoGrOO participa:
+			Em 2012 parte da quantia foi usada no registro do domínio cogroo.org.
+			</p>
+			<p>
+			Outa parte vem sendo usada para confecção de material de divulgação para os eventos que o CoGrOO participa:
 			</p>
 			<ul>
 				<li>FISL 2009 e 2010</li>
@@ -23,12 +25,6 @@
 				<li>ENBRO 2010</li>
 				<li>Encontro Linguistica da USP 2009 e 2010</li>
 			</ul>
-			<p>
-				Estamos programando uma maratona de desenvolvimento para 2011!
-				Nesta maratona teremos uma tarde de teoria e 
-				prática, introduzindo a tecnologia do CoGrOO aos desenvolvedores e linguistas interessados. 
-				Colabore com nosso evento!
-			</p>
 		</section>	
 		<section id="_2011">
 			<title>2011</title>
@@ -37,6 +33,15 @@
 			</p>
 			<ul>
 				<li>Ponto Desk Sistemas - (21/mai/2011)</li>
+			</ul>
+		</section>	
+		<section id="_2012">
+			<title>2012</title>
+			<p>
+				Doações pessoa física:
+			</p>
+			<ul>
+				<li>Carmo xD - (18/mai/2012)</li>
 			</ul>
 		</section>	
 		<section id="_2010">
@@ -64,11 +69,17 @@
 				<li>Obrigado <a class="fork" href="http://www.instantiations.com">Instantiations</a> pela licença especial para projetos FOSS do <a class="fork" href="http://www.instantiations.com/windowbuilder/pro/">WindowBuilder Pro™</a>, usado no desenvolvimento do CoGrOO Tools.</li>
 			</ul>
 		</section>
+
 		<section id="_2006">
+
 			<title>2007</title>
+
 			<p>
+
 				O <a href="http://www.google.com/" class="fork">Google</a> doou um Corpus Treebank.
+
 			</p>
+
 		</section>
 		<section id="_2005">
 			<title>2005</title>
