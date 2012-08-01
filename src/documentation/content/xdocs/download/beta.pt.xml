@@ -2,20 +2,20 @@
 <!DOCTYPE document PUBLIC "-//APACHE//DTD Documentation V2.0//EN" "http://forrest.apache/dtd/document-v20.dtd">
 <document>
 	<header>
-		<title>Versão 3.2.0 (estável)</title>
+		<title>Versão 4.0.0 (beta)</title>
 		<abstract>
-			Faça o download do CoGrOO 3.2.0 (estável).<br/>
+			Faça o download do CoGrOO 4.0.0 (beta).<br/>
 		</abstract>
 	</header>
 	<body>
 	
-			<note label="Versão estável">Esta é a versão estável do corretor gramatical. Caso deseje experimentar a versão mais recente, porém menos testada, instale a <a href="beta.html">versão beta</a>.</note>
+	<note label="Versão beta">Esta versão está em testes e pode apresentar instabilidades. Atualizações frequentes serão oferecidas pela ferramenta de atualização automática do Apache Open|LibreOffice. Caso deseje a versão estável, instale a <a href="current.html">versão corrente</a>.</note>
 
 		<section id="download">
 			<title>Download</title>
 			<p>
-				<a href="http://downloads.sourceforge.net/cogroo/CoGrOO-AddOn-3.2.0-bin.oxt"><img  src="images/BaixarCoGrOO.png" alt="Baixar CoGrOO"></img></a><br/>
-				<a href="http://downloads.sourceforge.net/cogroo/CoGrOO-AddOn-3.2.0-bin.oxt">CoGrOO-AddOn-3.2.0-bin.oxt</a>
+				<a href="http://github.com/downloads/cogroo/cogroo4/cogroo-addon-pt_br-4.0.0-SNAPSHOT.oxt"><img  src="images/BaixarCoGrOO.png" alt="Baixar CoGrOO"></img></a><br/>
+				<a href="http://github.com/downloads/cogroo/cogroo4/cogroo-addon-pt_br-4.0.0-SNAPSHOT.oxt">cogroo-addon-pt_br-4.0.0-SNAPSHOT</a>
 			</p>
 			
 		</section>
@@ -55,9 +55,9 @@
 					<p>Caso o sistema pedir para reinicie o LibreOffice / OpenOffice, reinicie fechando todos os documentos abertos. Caso esteja usando o OpenOffice.org no Windows pode ser necessário inclusive fechar o Inicializador Rápido, que fica ao lado do relógio na barra de tarefas.</p>
 				<p><strong>3) Instalando o CoGrOO</strong></p>
 				<ul>
-					<li>Caso ainda não tenha feito download do CoGrOO, clique no botão <code>Baixar CoGrOO</code>, ou use o link <a href="http://downloads.sourceforge.net/cogroo/CoGrOO-AddOn-3.2.0-bin.oxt" class="fork">CoGrOO-AddOn-3.2.0-bin.oxt</a></li>
+					<li>Caso ainda não tenha feito download do CoGrOO, clique no botão <code>Baixar CoGrOO</code>, ou use o link <a href="http://github.com/downloads/cogroo/cogroo4/cogroo-addon-pt_br-4.0.0-SNAPSHOT.oxt" class="fork">cogroo-addon-pt_br-4.0.0-SNAPSHOT</a></li>
 					<li>Em uma janela do LibreOffice / Apache OpenOffice, clique no menu <code>Ferramentas</code> e depois em <code>Gerenciador de extensão...</code></li>
-					<li>Clique no botão <code>Adicionar</code> e selecione o pacote de instalação CoGrOO-AddOn-3.2.0-bin.oxt, que possivelmente estará na pasta Downloads</li>
+					<li>Clique no botão <code>Adicionar</code> e selecione o pacote de instalação cogroo-addon-pt_br-4.0.0-SNAPSHOT, que possivelmente estará na pasta Downloads</li>
 					<li>Siga as instruções do Gerenciador de extensão do LibreOffice / Apache OpenOffice</li>
 					<li><strong>Importante!</strong> Será necessário reiniciar o LibreOffice / OpenOffice para que a extensão seja ativada, feche qualquer documento aberto, e no OpenOffice.org no Windows é necessário inclusive fechar o Inicializador Rápido, que fica ao lado do relógio na barra de tarefas.</li>
 				</ul>
@@ -65,24 +65,28 @@
 				Em caso de dúvidas, o processo detalhado é explicado <a href="installation.html#v3.x.windows">aqui</a>, e em diversos <a href="http://bit.ly/K3rXvV" class="fork">blogs na Internet</a>.
 			</p>
 			<p>
-				<a href="http://downloads.sourceforge.net/cogroo/CoGrOO-AddOn-3.2.0-bin.oxt" class="fork"><img  src="images/BaixarCoGrOO.png" alt="Baixar CoGrOO"></img></a><br/>
-				<a href="http://downloads.sourceforge.net/cogroo/CoGrOO-AddOn-3.2.0-bin.oxt" class="fork">CoGrOO-AddOn-3.2.0-bin.oxt</a>
+				<a href="http://github.com/downloads/cogroo/cogroo4/cogroo-addon-pt_br-4.0.0-SNAPSHOT.oxt" class="fork"><img  src="images/BaixarCoGrOO.png" alt="Baixar CoGrOO"></img></a><br/>
+				<a href="http://github.com/downloads/cogroo/cogroo4/cogroo-addon-pt_br-4.0.0-SNAPSHOT.oxt" class="fork">cogroo-addon-pt_br-4.0.0-SNAPSHOT</a>
 			</p>
 		</section>
 		
-				<section id="whatsnew">
+		<section id="whatsnew">
 			<title>Mudanças nesta versão, em relação à versão anterior</title>
 			<ul>
-				<li>As regras 117, 118 e 124 foram reabilitadas.</li>
-				<li>Foram criadas regras que visam corrigir problemas com pontuação, espaçamento e repetição de palavras.</li>
-				<li>O número de intervenções indevidas foi reduzido pela metade.</li>
-				<li>Diversas outras pequenas correções e melhorias. Veja <a href="http://ccsl.ime.usp.br/redmine/projects/cogroo/wiki/Release_notes">lista completa</a>.</li>
+				<li>Nova licença: Apache 2.0</li>
+				<li>Núcleo totalmente reescrito e melhor integrado com o Apache OpenNLP</li>
+				<li>Nova <a href="http://ccsl.ime.usp.br/redmine/projects/cogroo/wiki/Projetos_do_Cogroo_4">arquitetura</a> e <a href="http://ccsl.ime.usp.br/redmine/projects/cogroo/wiki/API_CoGrOO_4x">API</a></li>
+				<li>Novos modelos linguísticos.</li>
+				<li>Novo dicionário baseado no <a href="http://github.com/cogroo/jspell.br">Jspell.br</a></li>
+				<li>Integração contínua: lançamentos frequentes (semanais) de correções e novidades.</li>
+				<li>Muitas outras mudanças estão ainda sendo feitas. Acompanhe commits no <a href="http://github.com/cogroo/cogroo4/commits/master">GitHub</a>.</li>
+				<li>Requer Java 6 ou mais novo.</li>
 			</ul>
 		</section>
 		<section id="requirements">
 			<title>Requisitos mínimos</title>
 			<ul>
-				<li>Java 1.5 ou mais novo: para obter, ou verificar se já está instalado, visite <a href="http://java.com/pt_BR/" class="fork">http://java.com/pt_BR/</a> (site oficial)</li>
+				<li>Java 1.6 ou mais novo: para obter, ou verificar se já está instalado, visite <a href="http://java.com/pt_BR/" class="fork">http://java.com/pt_BR/</a> (site oficial)</li>
 				<li> <a href="http://pt-br.libreoffice.org/" class="fork">LibreOffice</a> / <a href="http://www.openoffice.org/pt-br/" class="fork">Apache OpenOffice</a>, 3.0.1 ou melhor</li>
 				<li>128MB de memória RAM</li>
 				<li><strong>7MB de disco rígido</strong></li>
@@ -91,14 +95,8 @@
 		
 		<section id="source">
 			<title>Código-fonte e Desenvolvimento</title>
-			<ul>
-				<li>O código fonte está disponível para as pessoas que desejam se aventurar no mundo do CoGrOO: <br/>
-					<a href="http://downloads.sourceforge.net/cogroo/CoGrOO-3.2.0-project.zip">CoGrOO-3.2.0-project.zip</a><br/>
-					<a href="http://downloads.sourceforge.net/cogroo/CoGrOO-3.2.0-project.tar.gz">CoGrOO-3.2.0-project.tar.gz</a><br/>
-					<a href="http://ccsl.ime.usp.br/redmine/projects/cogroo/wiki/C%C3%B3digo_Fonte_CoGrOO_3x" class="fork">Acesso ao SVN</a>
-				</li>
-				<li>Maven: veja instruções no <a href="http://ccsl.ime.usp.br/redmine/projects/cogroo/wiki/Maven" class="fork">Wiki</a></li>
-			</ul>
+			<p>O código fonte está disponível no GitHub para as pessoas que desejam se aventurar no mundo do CoGrOO: <a href="http://github.com/cogroo/cogroo4">http://github.com/cogroo/cogroo4</a></p>
+			<p>Veja a <a href="http://ccsl.ime.usp.br/redmine/projects/cogroo/wiki/Projetos_do_Cogroo_4">Wiki</a> para conhecer mais sobre o projeto, como usar o código e contribuir.</p>
 		</section>
 		<section id="issues">
 			<title>Reportando problemas e entrando em contato</title>

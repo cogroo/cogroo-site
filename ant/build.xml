@@ -93,6 +93,13 @@ MA 02111-1307 USA
 			<substitution expression="${analytics}"/>
 		</replaceregexp>
 		
+		<!-- track downloads -->
+		<replaceregexp byline="true">
+			<fileset dir="${dist.dir}" includes="**/*.html" />
+			<regexp pattern="href[^\s>]*/([^\s>]*\.oxt)"/>
+			<substitution expression="\0&#34; onclick=&#34;pageTracker._trackPageview('/download/\1');"/>
+		</replaceregexp>
+		
 		<!-- <div id="content"> -->
 		<replaceregexp byline="true">
 			<fileset dir="${dist.dir}" includes="**/*.html" />
