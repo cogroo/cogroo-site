@@ -35,7 +35,7 @@
 	
 
 	<download label="Download" href="download/" tab="download">
-		<current label="3.2.0 (estável)" href="current.html"/>
+		<current label="3.2.1 (estável)" href="current.html"/>
 		<beta label="4.0.0 (beta)" href="beta.html"/>
 		<!--<v3.0.5 label="3.0.5 (Java 5)" href="v3.0.5.html"/>
 		<v3.0.4 label="3.0.4 (Java 5)" href="v3.0.4.html"/>
