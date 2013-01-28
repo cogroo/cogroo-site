@@ -9,13 +9,13 @@
 	</header>
 	<body>
 	
-	<note label="Versão beta">Esta versão está em testes e pode apresentar instabilidades. Atualizações frequentes serão oferecidas pela ferramenta de atualização automática do Apache Open|LibreOffice. Caso deseje a versão estável, instale a <a href="current.html">versão corrente</a>.</note>
+	<note label="Versão beta">Esta versão aprimorada do corretor está em desenvolvimento. Atualizações frequentes serão oferecidas pela ferramenta de atualização automática do Apache Open|LibreOffice. Caso deseje a versão estável, instale a <a href="current.html">versão corrente</a>.</note>
 
 		<section id="download">
 			<title>Download</title>
 			<p>
-				<a href="http://github.com/downloads/cogroo/cogroo4/cogroo-addon-pt_br-4.0.0-SNAPSHOT.oxt"><img  src="images/BaixarCoGrOO.png" alt="Baixar CoGrOO"></img></a><br/>
-				<a href="http://github.com/downloads/cogroo/cogroo4/cogroo-addon-pt_br-4.0.0-SNAPSHOT.oxt">cogroo-addon-pt_br-4.0.0-SNAPSHOT</a>
+				<a href="http://sourceforge.net/projects/cogroo/files/cogroo4/snapshot/cogroo-addon-pt_br-4.0.0-SNAPSHOT.oxt"><img  src="images/BaixarCoGrOO.png" alt="Baixar CoGrOO"></img></a><br/>
+				<a href="http://sourceforge.net/projects/cogroo/files/cogroo4/snapshot/cogroo-addon-pt_br-4.0.0-SNAPSHOT.oxt">cogroo-addon-pt_br-4.0.0-SNAPSHOT</a>
 			</p>
 			
 		</section>
@@ -55,7 +55,7 @@
 					<p>Caso o sistema pedir para reinicie o LibreOffice / OpenOffice, reinicie fechando todos os documentos abertos. Caso esteja usando o OpenOffice.org no Windows pode ser necessário inclusive fechar o Inicializador Rápido, que fica ao lado do relógio na barra de tarefas.</p>
 				<p><strong>3) Instalando o CoGrOO</strong></p>
 				<ul>
-					<li>Caso ainda não tenha feito download do CoGrOO, clique no botão <code>Baixar CoGrOO</code>, ou use o link <a href="http://github.com/downloads/cogroo/cogroo4/cogroo-addon-pt_br-4.0.0-SNAPSHOT.oxt" class="fork">cogroo-addon-pt_br-4.0.0-SNAPSHOT</a></li>
+					<li>Caso ainda não tenha feito download do CoGrOO, clique no botão <code>Baixar CoGrOO</code>, ou use o link <a href="http://sourceforge.net/projects/cogroo/files/cogroo4/snapshot/cogroo-addon-pt_br-4.0.0-SNAPSHOT.oxt" class="fork">cogroo-addon-pt_br-4.0.0-SNAPSHOT</a></li>
 					<li>Em uma janela do LibreOffice / Apache OpenOffice, clique no menu <code>Ferramentas</code> e depois em <code>Gerenciador de extensão...</code></li>
 					<li>Clique no botão <code>Adicionar</code> e selecione o pacote de instalação cogroo-addon-pt_br-4.0.0-SNAPSHOT, que possivelmente estará na pasta Downloads</li>
 					<li>Siga as instruções do Gerenciador de extensão do LibreOffice / Apache OpenOffice</li>
@@ -65,8 +65,8 @@
 				Em caso de dúvidas, o processo detalhado é explicado <a href="installation.html#v3.x.windows">aqui</a>, e em diversos <a href="http://bit.ly/K3rXvV" class="fork">blogs na Internet</a>.
 			</p>
 			<p>
-				<a href="http://github.com/downloads/cogroo/cogroo4/cogroo-addon-pt_br-4.0.0-SNAPSHOT.oxt" class="fork"><img  src="images/BaixarCoGrOO.png" alt="Baixar CoGrOO"></img></a><br/>
-				<a href="http://github.com/downloads/cogroo/cogroo4/cogroo-addon-pt_br-4.0.0-SNAPSHOT.oxt" class="fork">cogroo-addon-pt_br-4.0.0-SNAPSHOT</a>
+				<a href="http://sourceforge.net/projects/cogroo/files/cogroo4/snapshot/cogroo-addon-pt_br-4.0.0-SNAPSHOT.oxt" class="fork"><img  src="images/BaixarCoGrOO.png" alt="Baixar CoGrOO"></img></a><br/>
+				<a href="http://sourceforge.net/projects/cogroo/files/cogroo4/snapshot/cogroo-addon-pt_br-4.0.0-SNAPSHOT.oxt" class="fork">cogroo-addon-pt_br-4.0.0-SNAPSHOT</a>
 			</p>
 		</section>
 		
