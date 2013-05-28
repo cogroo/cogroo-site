@@ -10,7 +10,11 @@
 	<body>
 	
 	<note label="Versão beta">Esta versão aprimorada do corretor está em desenvolvimento. Atualizações frequentes serão oferecidas pela ferramenta de atualização automática do Apache Open|LibreOffice. Caso deseje a versão estável, instale a <a href="current.html">versão corrente</a>.</note>
-
+	<note label="LibreOffice 4.x">
+				Se você estiver usando LibreOffice 4.x ou mais novo precisará desativar o Lightproof 
+				Verificador Gramatical (pt_BR) e ativar o CoGrOO.<br />
+				Para isso, use <code>Ferramentas → Opções… → Configurações de idioma → Recursos para redação → Editar…</code> para desabilitar o LightProof e habilitar o CoGrOO. Mais detalhes na <a href="../help/faq.html#libreoffice4">FAQ</a>.
+	</note>
 		<section id="download">
 			<title>Download</title>
 			<p>

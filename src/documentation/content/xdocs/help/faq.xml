@@ -222,4 +222,30 @@
 			</answer>
 		</faq>
 	</part>
+	<part id="compatibility">
+		<title>Problemas de compatibilidade</title>
+		<faq id="libreoffice4">
+			<question>Como desabilitar o Lightproof no LibreOffice 4.x?</question>
+			<answer>
+				<p>A partir da versão 4.0.0 do LibreOffice, além do procedimento normal 
+				de instalação, é necessário um passo adicional para ativar o CoGrOO.
+				Isto acontece porque, até o momento, apenas um corretor gramatical é ativo no
+				LibreOffice, e a partir da versão 4.0.0 ele vem com o verificador gramatical Lightproof
+				por padrão.</p>
+				<p>Para desativar o Lightproof e ativar o CoGrOO, use
+					<code> Ferramentas → Opções… → Configurações de idioma → Recursos para
+						redação → Editar…
+					</code>
+					para desabilitar o LightProof e habilitar o CoGrOO. Veja passo-a-passo detalhado abaixo.</p>
+				<p> 1) Ferramentas → Opções… </p>
+				<figure src="../images/libreoffice4/ferramentas-opcoes.png" alt="Ferramentas → Opções…" width="700"/>
+				<p> 2) Configurações de idioma → Recursos para
+						redação </p>
+				<figure src="../images/libreoffice4/ferramentasEdicao.png" alt="Configurações de idioma → Recursos para
+						redação" width="700"/>
+				<p>3) Editar…</p>
+				<figure src="../images/libreoffice4/editarModulos.png" alt="Editar…"  width="600"/>
+			</answer>
+		</faq>
+	</part>
 </faqs>
